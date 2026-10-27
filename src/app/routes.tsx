@@ -8,6 +8,7 @@ const PortfolioPage = lazy(() => import('../pages/Portfolio'));
 const CaseStudyPage = lazy(() => import('../pages/CaseStudy'));
 const ProductsPage = lazy(() => import('../pages/Products'));
 const ContactPage = lazy(() => import('../pages/Contact'));
+const NotFoundPage = lazy(() => import('../pages/NotFound'));
 
 export const AppRoutes: React.FC = () => {
   return (
@@ -26,7 +27,7 @@ export const AppRoutes: React.FC = () => {
         <Route path="/product" element={<Navigate to="/products" replace />} />
         <Route path="/contact" element={<ContactPage />} />
         <Route path="/contact-us" element={<Navigate to="/contact" replace />} />
-        <Route path="*" element={<Navigate to="/" replace />} />
+        <Route path="*" element={<NotFoundPage />} />
       </Routes>
     </Suspense>
   );

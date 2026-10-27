@@ -18,9 +18,10 @@ export const Navbar: React.FC = () => {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
-  // Close mobile menu on route change
+  // Close mobile menu on route change & prevent accidental scroll locking
   useEffect(() => {
     setMobileMenuOpen(false);
+    document.body.style.overflow = '';
   }, [location.pathname]);
 
   // Handle escape key
@@ -32,6 +33,18 @@ export const Navbar: React.FC = () => {
     };
     window.addEventListener('keydown', handleKeyDown);
     return () => window.removeEventListener('keydown', handleKeyDown);
+  }, [mobileMenuOpen]);
+
+  // Cleanly restore scroll if mobileMenuOpen changes or component unmounts
+  useEffect(() => {
+    if (mobileMenuOpen) {
+      document.body.style.overflow = 'hidden';
+    } else {
+      document.body.style.overflow = '';
+    }
+    return () => {
+      document.body.style.overflow = '';
+    };
   }, [mobileMenuOpen]);
 
   const isItemActive = (itemPath: string) => {

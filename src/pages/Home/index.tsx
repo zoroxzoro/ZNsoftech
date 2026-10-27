@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { HeroSection } from './HeroSection';
 import { TrustMetricsSection } from './TrustMetricsSection';
 import { AboutSection } from './AboutSection';
@@ -10,6 +10,11 @@ import { TestimonialsSection } from './TestimonialsSection';
 import { ContactSection } from './ContactSection';
 
 export const HomePage: React.FC = () => {
+  useEffect(() => {
+    document.title = 'ZNSoftech | Enterprise Digital Solutions & Agentic AI Systems';
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <div className="flex flex-col w-full">
       <HeroSection />
