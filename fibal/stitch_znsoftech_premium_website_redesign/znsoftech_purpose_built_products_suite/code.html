@@ -1,0 +1,1372 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_standard" name="shell-type"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&amp;family=Space+Grotesk:wght@500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={darkMode:"class",theme:{extend:{"colors":{"text-muted":"#8892A6","surface-dark-elevated":"#1A2234","tertiary-fixed":"#cce5ff","cyan-glow":"#BAE6FD","on-secondary-fixed-variant":"#4533a3","inverse-on-surface":"#2d3038","primary-container":"#6789ff","on-primary":"#00277f","on-secondary":"#2e158c","on-secondary-container":"#b6abff","surface-dim":"#10131b","text-light-primary":"#151922","surface-container-low":"#181b23","primary":"#b6c4ff","outline-variant":"#434654","on-surface":"#e0e2ed","surface-dark":"#111827","secondary-fixed-dim":"#c8bfff","surface-variant":"#32353d","error-container":"#93000a","on-tertiary-fixed":"#001d31","primary-fixed":"#dce1ff","on-surface-variant":"#c4c5d7","on-primary-fixed-variant":"#003ab1","background":"#10131b","on-background":"#e0e2ed","tertiary":"#93ccff","surface-bright":"#363941","on-error":"#690005","surface-light":"#FFFFFF","secondary-container":"#4533a3","primary-fixed-dim":"#b6c4ff","secondary-fixed":"#e5deff","inverse-primary":"#2152d6","surface":"#10131b","secondary":"#c8bfff","surface-tint":"#b6c4ff","error":"#ffb4ab","on-tertiary-fixed-variant":"#004b73","outline":"#8d90a0","brand-accent-red":"#C6202E","surface-container-high":"#272a32","on-primary-fixed":"#00164f","surface-container":"#1d2027","on-secondary-fixed":"#190064","tertiary-fixed-dim":"#93ccff","inverse-surface":"#e0e2ed","on-primary-container":"#00226f","surface-container-highest":"#32353d","on-error-container":"#ffdad6","surface-container-lowest":"#0b0e15","on-tertiary":"#003351","tertiary-container":"#3198dc","canvas-light":"#F8F9FC","on-tertiary-container":"#002c47"},"borderRadius":{"DEFAULT":"0.125rem","lg":"0.25rem","xl":"0.5rem","full":"0.75rem"},"spacing":{"gutter":"1.5rem","space-xs":"0.25rem","space-xl":"2.5rem","margin-tablet":"3rem","margin-desktop":"5rem","gutter-desktop":"2rem","space-sm":"0.5rem","gutter-mobile":"1rem","space-lg":"1.5rem","margin":"1.5rem","space-md":"1rem"},"fontFamily":{"headline-xl":["Space Grotesk"],"display-hero":["Space Grotesk"],"headline-md":["Space Grotesk"],"display-hero-mobile":["Space Grotesk"],"headline-lg-mobile":["Space Grotesk"],"body-sm":["Manrope"],"label-lg":["Space Grotesk"],"headline-sm":["Space Grotesk"],"body-md":["Manrope"],"body-xl":["Manrope"],"label-mono-tag":["Space Grotesk"],"headline-xl-mobile":["Space Grotesk"],"label-md":["Space Grotesk"],"body-lg":["Manrope"],"headline-lg":["Space Grotesk"]},"fontSize":{"headline-xl":["48px",{"lineHeight":"56px","letterSpacing":"-0.03em","fontWeight":"600"}],"display-hero":["72px",{"lineHeight":"80px","letterSpacing":"-0.04em","fontWeight":"600"}],"headline-md":["24px",{"lineHeight":"32px","letterSpacing":"-0.01em","fontWeight":"500"}],"display-hero-mobile":["40px",{"lineHeight":"48px","letterSpacing":"-0.03em","fontWeight":"600"}],"headline-lg-mobile":["26px",{"lineHeight":"34px","letterSpacing":"-0.01em","fontWeight":"500"}],"body-sm":["13px",{"lineHeight":"20px","letterSpacing":"0.01em","fontWeight":"400"}],"label-lg":["14px",{"lineHeight":"20px","letterSpacing":"0.04em","fontWeight":"600"}],"headline-sm":["20px",{"lineHeight":"28px","letterSpacing":"0em","fontWeight":"500"}],"body-md":["15px",{"lineHeight":"24px","letterSpacing":"0em","fontWeight":"400"}],"body-xl":["20px",{"lineHeight":"32px","letterSpacing":"-0.01em","fontWeight":"400"}],"label-mono-tag":["11px",{"lineHeight":"14px","letterSpacing":"0.08em","fontWeight":"600"}],"headline-xl-mobile":["32px",{"lineHeight":"40px","letterSpacing":"-0.02em","fontWeight":"600"}],"label-md":["12px",{"lineHeight":"16px","letterSpacing":"0.06em","fontWeight":"500"}],"body-lg":["17px",{"lineHeight":"28px","letterSpacing":"0em","fontWeight":"400"}],"headline-lg":["36px",{"lineHeight":"44px","letterSpacing":"-0.02em","fontWeight":"500"}]}}}};</script></head><body class="bg-surface text-on-surface font-body-md text-body-md antialiased selection:bg-primary-container selection:text-on-primary-container"><header class="fixed top-0 w-full z-50 bg-surface-container-lowest/85 backdrop-blur-xl shadow-[0_1px_8px_rgba(0,0,0,0.45)]"><div class="h-20 max-w-[1360px] mx-auto px-gutter-desktop flex items-center justify-between gap-gutter"><div class="flex items-center gap-space-md"><img alt="Image from https://znsoftech.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flogo-nav.ddd322ab.png&amp;w=3840&amp;q=75" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1WLQFGfX5rdY6n-nKL1Xo_q7Shj6Vke_3_cX5mgKzbiYiPw712-xUmWn_d1ZvPfIKIWxXQe7ffPoa2YOorg1PLBRs_sanWDgV-LpBCWnYvvus-3cx_zqaWj66MjgM1EM6cRAE48lzctj0AKVPtJMReIAkHc93xSS4ZracdmMxQiAYpow4103pZ6W8PvVQRJTgZC0QjHVBjlzcDkjwkIOUqTedLNQXSpjju89vBtQkJn66GexRubjWUWfr3t"/><div class="flex flex-col"><span class="font-headline-sm text-headline-sm tracking-tight text-on-surface leading-none">ZNSoftech</span><span class="font-label-mono-tag text-label-mono-tag text-text-muted uppercase tracking-widest mt-0.5">Digital Enterprise</span></div></div><nav class="hidden lg:flex items-center gap-space-xl" data-active-classes="text-primary font-label-lg text-label-lg font-semibold border-b border-primary pb-1"><a class="font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface transition-colors" data-path="home" href="#">Home</a><a class="font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface transition-colors" data-path="about" href="#">About</a><a class="font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface transition-colors" data-path="services" href="#">Services</a><a aria-current="page" class="transition-colors text-primary font-label-lg text-label-lg font-semibold border-b border-primary pb-1" data-path="products" href="#">Products</a><a class="font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface transition-colors" data-path="our-work" href="#">Our Work</a><a class="font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface transition-colors" data-path="contact" href="#">Contact</a></nav><div class="flex items-center gap-space-md"><a class="hidden sm:inline-flex items-center justify-center h-11 px-space-lg bg-primary-container text-on-primary-container font-headline-sm text-label-lg font-medium rounded-lg hover:bg-primary hover:text-on-primary transition-all duration-200 shadow-[0_0_40px_-10px_rgba(82,123,255,0.25)]" data-path="contact" href="#">Let's Talk</a><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div></div></div></header><main class="w-full pt-20 bg-surface min-h-[calc(100vh-80px)]"><div class="flex flex-col w-full">
+<!-- ========================================================================= -->
+<!-- 1. HERO SECTION: Midnight Obsidian with Radial Glow & UI Composition -->
+<!-- ========================================================================= -->
+<section class="relative w-full bg-surface-container-lowest overflow-hidden py-margin-desktop px-gutter lg:px-gutter-desktop">
+<!-- Atmospheric Ambient Backlight -->
+<div class="absolute -top-40 left-1/2 -translate-x-1/2 w-[850px] h-[550px] bg-primary-container/10 rounded-full blur-[140px] pointer-events-none"></div>
+<div class="absolute bottom-0 right-10 w-[500px] h-[350px] bg-cyan-glow/5 rounded-full blur-[120px] pointer-events-none"></div>
+<div class="max-w-[1360px] mx-auto grid grid-cols-1 lg:grid-cols-12 gap-gutter-desktop items-center relative z-10">
+<!-- Left Column: Value Proposition & Directives -->
+<div class="lg:col-span-6 flex flex-col gap-space-lg">
+<!-- Eyebrow + Live Verification Pill Badge -->
+<div class="flex flex-wrap items-center gap-space-sm">
+<span class="font-label-mono-tag text-label-mono-tag tracking-widest text-primary uppercase">
+            OUR PRODUCTS // PURPOSE-BUILT PLATFORMS
+          </span>
+<div class="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full bg-primary-container/10 text-primary">
+<span class="w-1.5 h-1.5 rounded-full bg-primary animate-pulse"></span>
+<span class="font-label-mono-tag text-label-mono-tag font-semibold tracking-wider uppercase text-on-surface">
+              VERIFIED OPERATIONAL SYSTEMS
+            </span>
+</div>
+</div>
+<!-- Headline -->
+<h1 class="font-headline-xl text-headline-xl lg:text-display-hero text-on-surface tracking-tight leading-tight">
+          Intelligent Products. Built for <span class="bg-gradient-to-r from-primary to-cyan-glow bg-clip-text text-transparent">Real-World Challenges.</span>
+</h1>
+<!-- Subtitle -->
+<p class="font-body-lg text-body-lg text-text-muted max-w-xl leading-relaxed">
+          Explore purpose-built digital platforms designed to simplify operations, connect teams, and support business growth across workforce logistics, fitness management, sports events, and enterprise sales.
+        </p>
+<!-- CTA Cluster -->
+<div class="flex flex-wrap items-center gap-space-md pt-space-xs">
+<a class="inline-flex items-center justify-center h-12 px-7 bg-primary-container text-on-primary-container font-headline-sm text-label-lg font-medium rounded-lg hover:bg-primary hover:text-on-primary transition-all duration-200 shadow-xl shadow-primary-container/20 group" href="#product-explorer">
+<span>Explore Products</span>
+<span class="material-symbols-outlined ml-2 text-[18px] group-hover:translate-x-1 group-hover:-translate-y-0.5 transition-transform duration-200">north_east</span>
+</a>
+<a class="inline-flex items-center justify-center h-12 px-7 bg-surface-container-high text-on-surface font-headline-sm text-label-lg font-medium rounded-lg hover:bg-surface-bright transition-colors duration-200" data-path="contact" href="#">
+            Talk to Our Team
+          </a>
+</div>
+<!-- Metric Ticker / Telemetry Index -->
+<div class="grid grid-cols-3 gap-space-md pt-space-md max-w-lg">
+<div class="flex flex-col">
+<span class="font-headline-lg text-headline-lg text-on-surface font-semibold tracking-tight">5+</span>
+<span class="font-label-mono-tag text-label-mono-tag text-text-muted uppercase">Operational Suites</span>
+</div>
+<div class="flex flex-col">
+<span class="font-headline-lg text-headline-lg text-on-surface font-semibold tracking-tight">99.98%</span>
+<span class="font-label-mono-tag text-label-mono-tag text-text-muted uppercase">Dispatch Uptime</span>
+</div>
+<div class="flex flex-col">
+<span class="font-headline-lg text-headline-lg text-on-surface font-semibold tracking-tight">2.4M+</span>
+<span class="font-label-mono-tag text-label-mono-tag text-text-muted uppercase">Processed Events</span>
+</div>
+</div>
+</div>
+<!-- Right Column: Conceptual Telemetry Layered Mock UI Interface -->
+<div class="lg:col-span-6 relative flex items-center justify-center min-h-[460px]">
+<!-- Base Glass Card: Smart Collect Fleet Core -->
+<div class="w-full bg-surface-dark/95 backdrop-blur-xl rounded-xl p-space-lg shadow-2xl relative z-10">
+<!-- Mock Terminal Header -->
+<div class="flex items-center justify-between pb-space-sm">
+<div class="flex items-center gap-space-sm">
+<span class="w-2.5 h-2.5 rounded-full bg-brand-accent-red"></span>
+<span class="w-2.5 h-2.5 rounded-full bg-amber-400"></span>
+<span class="w-2.5 h-2.5 rounded-full bg-emerald-400"></span>
+<span class="font-label-mono-tag text-label-mono-tag text-text-muted ml-2">TELEMETRY_ENGINE // LIVE_DISPATCH</span>
+</div>
+<div class="flex items-center gap-2">
+<span class="inline-block w-2 h-2 rounded-full bg-emerald-400 animate-ping"></span>
+<span class="font-label-mono-tag text-label-mono-tag text-emerald-400 uppercase font-semibold">Active Mesh</span>
+</div>
+</div>
+<!-- Main Metric Grid inside Terminal -->
+<div class="grid grid-cols-2 gap-space-sm my-space-md">
+<div class="bg-surface-container rounded-lg p-space-md">
+<div class="flex justify-between items-center text-text-muted font-label-mono-tag text-label-mono-tag">
+<span>ACTIVE FLEET NODES</span>
+<span class="material-symbols-outlined text-[16px] text-primary">local_shipping</span>
+</div>
+<p class="font-headline-md text-headline-md text-on-surface mt-1">142 <span class="text-body-sm text-text-muted font-normal">Vehicles</span></p>
+<div class="w-full bg-surface-dark-elevated h-1 rounded-full mt-2 overflow-hidden">
+<div class="bg-primary h-full w-[84%]"></div>
+</div>
+</div>
+<div class="bg-surface-container rounded-lg p-space-md">
+<div class="flex justify-between items-center text-text-muted font-label-mono-tag text-label-mono-tag">
+<span>TICKET ALLOCATIONS</span>
+<span class="material-symbols-outlined text-[16px] text-tertiary">confirmation_number</span>
+</div>
+<p class="font-headline-md text-headline-md text-on-surface mt-1">18,490 <span class="text-body-sm text-text-muted font-normal">Units</span></p>
+<div class="w-full bg-surface-dark-elevated h-1 rounded-full mt-2 overflow-hidden">
+<div class="bg-tertiary-container h-full w-[92%]"></div>
+</div>
+</div>
+</div>
+<!-- Live Routing Stream Visualizer -->
+<div class="bg-surface-container-high rounded-lg p-space-md flex flex-col gap-space-sm">
+<div class="flex items-center justify-between text-on-surface-variant font-label-mono-tag text-label-mono-tag">
+<span>DYNAMIC JOB SEQUENCING [DISPATCH ID: SC-904]</span>
+<span class="text-primary font-semibold">AUTO-OPTIMIZED</span>
+</div>
+<div class="flex items-center gap-space-md py-1">
+<div class="flex-1 bg-surface-dark-elevated rounded p-2">
+<span class="font-label-mono-tag text-[10px] text-text-muted block">ZONE CHESHIRE NW</span>
+<span class="font-body-sm text-body-sm text-on-surface font-semibold">Stop 1: Daresbury Sci-Park</span>
+</div>
+<span class="material-symbols-outlined text-primary text-[18px]">arrow_forward</span>
+<div class="flex-1 bg-surface-dark-elevated rounded p-2">
+<span class="font-label-mono-tag text-[10px] text-text-muted block">ZONE MANCHESTER S</span>
+<span class="font-body-sm text-body-sm text-on-surface font-semibold">Stop 2: Logistics Hub #4</span>
+</div>
+</div>
+</div>
+<!-- Micro Stats Row -->
+<div class="grid grid-cols-3 gap-2 mt-space-sm pt-space-xs text-center">
+<div class="bg-surface-container/60 rounded py-2 px-1">
+<span class="font-label-mono-tag text-[10px] text-text-muted uppercase block">DEFECT AUDITS</span>
+<span class="font-headline-sm text-headline-sm text-emerald-400 font-semibold">100% PASS</span>
+</div>
+<div class="bg-surface-container/60 rounded py-2 px-1">
+<span class="font-label-mono-tag text-[10px] text-text-muted uppercase block">PIPELINE DEAL FLOW</span>
+<span class="font-headline-sm text-headline-sm text-primary font-semibold">$3.82M</span>
+</div>
+<div class="bg-surface-container/60 rounded py-2 px-1">
+<span class="font-label-mono-tag text-[10px] text-text-muted uppercase block">LATENCY EDGE</span>
+<span class="font-headline-sm text-headline-sm text-cyan-glow font-semibold">18ms</span>
+</div>
+</div>
+</div>
+<!-- Overlapping Glass Badge: GrowthFactor Deal Ingestion -->
+<div class="absolute -bottom-6 -left-6 z-20 hidden sm:flex items-center gap-space-sm bg-surface-dark-elevated/95 backdrop-blur-md p-space-md rounded-xl shadow-2xl max-w-xs">
+<div class="w-10 h-10 rounded-lg bg-primary-container/20 flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-primary text-[22px]">trending_up</span>
+</div>
+<div class="flex flex-col min-w-0">
+<span class="font-label-mono-tag text-[10px] text-text-muted uppercase">GrowthFactor CRM Engine</span>
+<span class="font-body-sm text-body-sm font-semibold text-on-surface truncate">High Velocity Deal Captured</span>
+<span class="font-label-mono-tag text-[11px] text-emerald-400 font-semibold">+$84,500 Recurring ARR</span>
+</div>
+</div>
+<!-- Overlapping Badge 2: Crowdr QR Gate Scan -->
+<div class="absolute -top-6 -right-4 z-20 hidden sm:flex items-center gap-space-sm bg-surface-dark-elevated/95 backdrop-blur-md p-space-sm rounded-xl shadow-2xl">
+<span class="material-symbols-outlined text-tertiary text-[20px]">qr_code_scanner</span>
+<div class="flex flex-col">
+<span class="font-label-mono-tag text-[10px] text-text-muted uppercase">Turnstile Ingress</span>
+<span class="font-label-md text-label-md font-semibold text-on-surface">Gate 4B: Pass Validated</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- ========================================================================= -->
+<!-- 2. PRODUCTS OVERVIEW: Warm Off-White Editorial Section (#F8F9FC) -->
+<!-- ========================================================================= -->
+<section class="w-full bg-canvas-light text-text-light-primary py-margin-desktop px-gutter lg:px-gutter-desktop">
+<div class="max-w-[1360px] mx-auto">
+<!-- Editorial Section Intro -->
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-gutter-desktop items-start pb-space-xl">
+<div class="lg:col-span-5 flex flex-col gap-space-sm">
+<span class="font-label-mono-tag text-label-mono-tag tracking-widest text-inverse-primary uppercase font-bold">
+            STRATEGIC FOUNDATION
+          </span>
+<h2 class="font-headline-xl text-headline-xl text-text-light-primary tracking-tight font-semibold">
+            Purpose-Built Technology for Modern Businesses.
+          </h2>
+</div>
+<div class="lg:col-span-7 flex flex-col gap-space-md text-text-muted font-body-lg text-body-lg leading-relaxed pt-2">
+<p>
+            Off-the-shelf software often forces growing enterprises into restrictive patterns, bloated feature lists, and disconnected third-party integrations. At ZNSoftech, our product engineering division builds dedicated platforms engineered precisely for deterministic real-world operating workflows.
+          </p>
+<p>
+            Each system is architected as an end-to-end operational hub—bridging mobile personnel in the field, front-desk studio coordinators, stadium turnstiles, and commercial sales executives into a single unified telemetry backbone.
+          </p>
+</div>
+</div>
+<!-- 4 Verified Product Pillars Grid -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-gutter mt-space-lg">
+<div class="bg-surface-light p-space-lg rounded-xl shadow-md flex flex-col justify-between h-full group hover:shadow-xl transition-all duration-300">
+<div class="flex flex-col gap-space-sm">
+<div class="w-12 h-12 rounded-lg bg-canvas-light flex items-center justify-center text-inverse-primary group-hover:bg-primary-fixed transition-colors">
+<span class="material-symbols-outlined text-[24px]">local_shipping</span>
+</div>
+<span class="font-label-mono-tag text-label-mono-tag text-inverse-primary uppercase font-semibold">Pillar 01</span>
+<h3 class="font-headline-md text-headline-md text-text-light-primary font-semibold">Workforce &amp; Logistics</h3>
+<p class="font-body-sm text-body-sm text-text-muted leading-relaxed">
+              Mobile driver dispatch, statutory safety checklists, real-time telemetry, and automated waste collection auditing.
+            </p>
+</div>
+<div class="pt-space-md font-label-md text-label-md text-inverse-primary font-semibold flex items-center gap-1">
+<span>Platform: Smart Collect</span>
+<span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</div>
+</div>
+<div class="bg-surface-light p-space-lg rounded-xl shadow-md flex flex-col justify-between h-full group hover:shadow-xl transition-all duration-300">
+<div class="flex flex-col gap-space-sm">
+<div class="w-12 h-12 rounded-lg bg-canvas-light flex items-center justify-center text-inverse-primary group-hover:bg-primary-fixed transition-colors">
+<span class="material-symbols-outlined text-[24px]">fitness_center</span>
+</div>
+<span class="font-label-mono-tag text-label-mono-tag text-inverse-primary uppercase font-semibold">Pillar 02</span>
+<h3 class="font-headline-md text-headline-md text-text-light-primary font-semibold">Health &amp; Fitness</h3>
+<p class="font-body-sm text-body-sm text-text-muted leading-relaxed">
+              White-label studio websites, recurring subscription billing, class rosters, and customized member workout regimens.
+            </p>
+</div>
+<div class="pt-space-md font-label-md text-label-md text-inverse-primary font-semibold flex items-center gap-1">
+<span>Platform: Firebird Fitness</span>
+<span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</div>
+</div>
+<div class="bg-surface-light p-space-lg rounded-xl shadow-md flex flex-col justify-between h-full group hover:shadow-xl transition-all duration-300">
+<div class="flex flex-col gap-space-sm">
+<div class="w-12 h-12 rounded-lg bg-canvas-light flex items-center justify-center text-inverse-primary group-hover:bg-primary-fixed transition-colors">
+<span class="material-symbols-outlined text-[24px]">stadium</span>
+</div>
+<span class="font-label-mono-tag text-label-mono-tag text-inverse-primary uppercase font-semibold">Pillar 03</span>
+<h3 class="font-headline-md text-headline-md text-text-light-primary font-semibold">Sports &amp; Events</h3>
+<p class="font-body-sm text-body-sm text-text-muted leading-relaxed">
+              Matchday reserved ticketing, supporter engagement CRM, high-conversion merchandise sales, and gate scan validation.
+            </p>
+</div>
+<div class="pt-space-md font-label-md text-label-md text-inverse-primary font-semibold flex items-center gap-1">
+<span>Platform: Crowdr Sports</span>
+<span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</div>
+</div>
+<div class="bg-surface-light p-space-lg rounded-xl shadow-md flex flex-col justify-between h-full group hover:shadow-xl transition-all duration-300">
+<div class="flex flex-col gap-space-sm">
+<div class="w-12 h-12 rounded-lg bg-canvas-light flex items-center justify-center text-inverse-primary group-hover:bg-primary-fixed transition-colors">
+<span class="material-symbols-outlined text-[24px]">query_stats</span>
+</div>
+<span class="font-label-mono-tag text-label-mono-tag text-inverse-primary uppercase font-semibold">Pillar 04</span>
+<h3 class="font-headline-md text-headline-md text-text-light-primary font-semibold">Sales CRM Pipelines</h3>
+<p class="font-body-sm text-body-sm text-text-muted leading-relaxed">
+              Lead ingestion, deal stages, multi-touch attribution, commercial velocity modeling, and forecasting analytics.
+            </p>
+</div>
+<div class="pt-space-md font-label-md text-label-md text-inverse-primary font-semibold flex items-center gap-1">
+<span>Platform: GrowthFactor</span>
+<span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- ========================================================================= -->
+<!-- 3. FEATURED PRODUCT 01 — SMART COLLECT (Midnight Obsidian Canvas) -->
+<!-- ========================================================================= -->
+<section class="w-full bg-surface-container-lowest text-on-surface py-margin-desktop px-gutter lg:px-gutter-desktop relative" id="smart-collect">
+<div class="max-w-[1360px] mx-auto flex flex-col gap-space-xl">
+<!-- Headline & Subtitle Banner -->
+<div class="flex flex-col gap-space-sm max-w-3xl">
+<span class="font-label-mono-tag text-label-mono-tag text-primary tracking-widest uppercase">
+          01 // MOBILE WORKFORCE &amp; LOGISTICS
+        </span>
+<h2 class="font-headline-xl text-headline-xl text-on-surface font-semibold tracking-tight">
+          Smart Collect
+        </h2>
+<p class="font-headline-md text-headline-md text-primary font-normal">
+          End-to-End Waste Collection, Vehicle Inspections &amp; Field Service Logistics
+        </p>
+</div>
+<!-- Content Split: Verified Capabilities & High-Fidelity UI Showcase -->
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-gutter-desktop items-center">
+<!-- Left: Capabilities Checklist -->
+<div class="lg:col-span-5 flex flex-col gap-space-md">
+<p class="font-body-md text-body-md text-text-muted leading-relaxed">
+            Engineered for high-volume commercial waste operators, council fleet divisions, and multi-region logistics operators requiring deterministic statutory compliance and dynamic route navigation.
+          </p>
+<div class="grid grid-cols-1 gap-2.5 pt-space-xs">
+<div class="flex items-start gap-space-sm bg-surface-container/40 p-2.5 rounded-lg">
+<span class="material-symbols-outlined text-primary text-[20px] shrink-0 mt-0.5" style="font-variation-settings: 'FILL' 1;">check_circle</span>
+<span class="font-body-md text-body-md text-on-surface">Dynamic Job Scheduling &amp; Route Allocation</span>
+</div>
+<div class="flex items-start gap-space-sm bg-surface-container/40 p-2.5 rounded-lg">
+<span class="material-symbols-outlined text-primary text-[20px] shrink-0 mt-0.5" style="font-variation-settings: 'FILL' 1;">check_circle</span>
+<span class="font-body-md text-body-md text-on-surface">Driver &amp; Vehicle Safety Checklists with Defect Reporting</span>
+</div>
+<div class="flex items-start gap-space-sm bg-surface-container/40 p-2.5 rounded-lg">
+<span class="material-symbols-outlined text-primary text-[20px] shrink-0 mt-0.5" style="font-variation-settings: 'FILL' 1;">check_circle</span>
+<span class="font-body-md text-body-md text-on-surface">Mileage Tracking &amp; Live Telemetry Engine</span>
+</div>
+<div class="flex items-start gap-space-sm bg-surface-container/40 p-2.5 rounded-lg">
+<span class="material-symbols-outlined text-primary text-[20px] shrink-0 mt-0.5" style="font-variation-settings: 'FILL' 1;">check_circle</span>
+<span class="font-body-md text-body-md text-on-surface">Real-Time Monitoring &amp; Google Maps Navigation</span>
+</div>
+<div class="flex items-start gap-space-sm bg-surface-container/40 p-2.5 rounded-lg">
+<span class="material-symbols-outlined text-primary text-[20px] shrink-0 mt-0.5" style="font-variation-settings: 'FILL' 1;">check_circle</span>
+<span class="font-body-md text-body-md text-on-surface">Zone Mapping &amp; Customer Account Portals</span>
+</div>
+<div class="flex items-start gap-space-sm bg-surface-container/40 p-2.5 rounded-lg">
+<span class="material-symbols-outlined text-primary text-[20px] shrink-0 mt-0.5" style="font-variation-settings: 'FILL' 1;">check_circle</span>
+<span class="font-body-md text-body-md text-on-surface">Statutory Compliance Documents &amp; Automated Invoicing</span>
+</div>
+<div class="flex items-start gap-space-sm bg-surface-container/40 p-2.5 rounded-lg">
+<span class="material-symbols-outlined text-primary text-[20px] shrink-0 mt-0.5" style="font-variation-settings: 'FILL' 1;">check_circle</span>
+<span class="font-body-md text-body-md text-on-surface">Digital Signatures &amp; Delivery Auditing</span>
+</div>
+<div class="flex items-start gap-space-sm bg-surface-container/40 p-2.5 rounded-lg">
+<span class="material-symbols-outlined text-primary text-[20px] shrink-0 mt-0.5" style="font-variation-settings: 'FILL' 1;">check_circle</span>
+<span class="font-body-md text-body-md text-on-surface">Comprehensive Operational Reporting &amp; Analytics</span>
+</div>
+</div>
+<div class="flex flex-wrap items-center gap-space-md pt-space-sm">
+<a class="inline-flex items-center justify-center h-11 px-6 bg-primary-container text-on-primary-container font-label-lg text-label-lg rounded-lg hover:bg-primary hover:text-on-primary transition-colors" href="#">
+              Explore Smart Collect
+            </a>
+<a class="inline-flex items-center justify-center h-11 px-6 bg-surface-container text-on-surface font-label-lg text-label-lg rounded-lg hover:bg-surface-container-high transition-colors" data-path="contact" href="#">
+              Request Operational Demo
+            </a>
+</div>
+</div>
+<!-- Right: High-Fidelity Conceptual Interface Canvas -->
+<div class="lg:col-span-7">
+<div class="bg-surface-dark rounded-xl p-space-md shadow-2xl relative overflow-hidden">
+<!-- Window Bar -->
+<div class="flex items-center justify-between pb-space-sm bg-surface-container-low px-space-md py-2 rounded-t-lg">
+<span class="font-label-mono-tag text-label-mono-tag text-text-muted">SMART_COLLECT_OS // FLEET_DISPATCH_CONSOLE</span>
+<span class="font-label-mono-tag text-[11px] text-emerald-400 bg-emerald-400/10 px-2 py-0.5 rounded font-semibold">ALL DRIVERS SYNCED</span>
+</div>
+<!-- Conceptual Fleet Map & Telemetry Dashboard Layout -->
+<div class="grid grid-cols-1 md:grid-cols-12 gap-space-sm pt-space-sm">
+<!-- Left Map & Manifest Pane -->
+<div class="md:col-span-8 flex flex-col gap-space-sm">
+<!-- Fleet Route Card -->
+<div class="bg-surface-container-low rounded-lg p-space-md relative min-h-[220px] overflow-hidden flex flex-col justify-between">
+<div class="absolute inset-0 opacity-20 pointer-events-none">
+<!-- Subtle SVG Route Grid Lines -->
+<svg class="w-full h-full" xmlns="http://www.w3.org/2000/svg">
+<line class="text-primary" stroke="currentColor" stroke-dasharray="4" stroke-width="2" x1="20" x2="280" y1="40" y2="90"></line>
+<line class="text-primary" stroke="currentColor" stroke-width="2" x1="280" x2="380" y1="90" y2="180"></line>
+<circle cx="20" cy="40" fill="#527BFF" r="5"></circle>
+<circle cx="280" cy="90" fill="#527BFF" r="5"></circle>
+<circle cx="380" cy="180" fill="#10B981" r="5"></circle>
+</svg>
+</div>
+<div class="flex justify-between items-start z-10">
+<div>
+<span class="font-label-mono-tag text-[10px] text-text-muted uppercase">ACTIVE VECTOR // UK NORTH</span>
+<h4 class="font-headline-sm text-headline-sm text-on-surface font-semibold">Run #SC-4402: Merseyside Commercial</h4>
+</div>
+<span class="bg-primary-container/20 text-primary font-label-mono-tag text-label-mono-tag px-2 py-1 rounded">ON SCHEDULE</span>
+</div>
+<div class="z-10 grid grid-cols-3 gap-2 bg-surface-dark-elevated/80 backdrop-blur p-2.5 rounded">
+<div>
+<span class="font-label-mono-tag text-[10px] text-text-muted block">COMPLETED</span>
+<span class="font-label-lg text-label-lg text-on-surface font-bold">14 / 18 Jobs</span>
+</div>
+<div>
+<span class="font-label-mono-tag text-[10px] text-text-muted block">DISTANCE</span>
+<span class="font-label-lg text-label-lg text-on-surface font-bold">84.2 km</span>
+</div>
+<div>
+<span class="font-label-mono-tag text-[10px] text-text-muted block">AUDIT PROOF</span>
+<span class="font-label-lg text-label-lg text-emerald-400 font-bold">14 Signs</span>
+</div>
+</div>
+</div>
+<!-- Driver Job Rows -->
+<div class="bg-surface-container-low rounded-lg p-space-sm flex flex-col gap-1.5">
+<div class="flex items-center justify-between text-body-sm text-on-surface bg-surface-dark-elevated p-2 rounded">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-emerald-400 text-[18px]">verified</span>
+<span class="font-medium">Unit 04: Keckwick Lane Chemical Disposal</span>
+</div>
+<span class="font-label-mono-tag text-[11px] text-text-muted">10:42 AM • SIGNED</span>
+</div>
+<div class="flex items-center justify-between text-body-sm text-on-surface bg-surface-dark-elevated p-2 rounded">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-primary text-[18px]">navigation</span>
+<span class="font-medium">Unit 05: Sci-Tech Daresbury Tech Pod</span>
+</div>
+<span class="font-label-mono-tag text-[11px] text-primary">EN ROUTE • 4 MIN</span>
+</div>
+</div>
+</div>
+<!-- Right Telemetry & Inspection Sidebar -->
+<div class="md:col-span-4 flex flex-col gap-space-sm">
+<!-- Vehicle Defect Checklist Panel -->
+<div class="bg-surface-container-low rounded-lg p-space-md flex flex-col gap-2">
+<div class="flex items-center justify-between">
+<span class="font-label-mono-tag text-[11px] text-text-muted uppercase">PRE-TRIP DEFECT AUDIT</span>
+<span class="material-symbols-outlined text-[16px] text-emerald-400">task_alt</span>
+</div>
+<div class="space-y-1.5 text-body-sm">
+<div class="flex justify-between text-text-muted">
+<span>Brakes &amp; Hydraulics</span>
+<span class="text-emerald-400 font-semibold font-label-mono-tag">PASS</span>
+</div>
+<div class="flex justify-between text-text-muted">
+<span>Tire Pressure &amp; Tread</span>
+<span class="text-emerald-400 font-semibold font-label-mono-tag">PASS</span>
+</div>
+<div class="flex justify-between text-text-muted">
+<span>Tachograph Calibration</span>
+<span class="text-emerald-400 font-semibold font-label-mono-tag">VERIFIED</span>
+</div>
+<div class="flex justify-between text-text-muted">
+<span>Waste Consignment Note</span>
+<span class="text-emerald-400 font-semibold font-label-mono-tag">LOCKED</span>
+</div>
+</div>
+</div>
+<!-- Driver Telemetry Progress -->
+<div class="bg-surface-container-low rounded-lg p-space-md flex flex-col justify-between">
+<span class="font-label-mono-tag text-[11px] text-text-muted uppercase">DISPATCH SATISFACTION</span>
+<div class="flex items-baseline gap-2 mt-2">
+<span class="font-headline-lg text-headline-lg text-on-surface font-bold">99.4%</span>
+<span class="text-emerald-400 font-label-mono-tag text-[11px]">↑ +1.2%</span>
+</div>
+<p class="font-body-sm text-[12px] text-text-muted mt-1 leading-snug">
+                    Zero statutory infractions across 1,480 recorded collections this cycle.
+                  </p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- ========================================================================= -->
+<!-- 4. FEATURED PRODUCT 02 — FITNESS CRM (FIREBIRD FITNESS) (Warm Off-White) -->
+<!-- ========================================================================= -->
+<section class="w-full bg-canvas-light text-text-light-primary py-margin-desktop px-gutter lg:px-gutter-desktop" id="fitness-crm">
+<div class="max-w-[1360px] mx-auto flex flex-col gap-space-xl">
+<div class="flex flex-col gap-space-sm max-w-3xl">
+<span class="font-label-mono-tag text-label-mono-tag text-inverse-primary tracking-widest uppercase font-bold">
+          02 // HEALTH &amp; WELLNESS INFRASTRUCTURE
+        </span>
+<h2 class="font-headline-xl text-headline-xl text-text-light-primary font-semibold tracking-tight">
+          Firebird Fitness CRM
+        </h2>
+<p class="font-headline-md text-headline-md text-inverse-primary font-normal">
+          Centralized Business Operations &amp; Member Regimens for Modern Studios
+        </p>
+</div>
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-gutter-desktop items-center">
+<!-- Left: Studio Interface Mockup -->
+<div class="lg:col-span-7 order-2 lg:order-1">
+<div class="bg-surface-light rounded-xl p-space-md shadow-xl flex flex-col gap-space-md">
+<!-- Sub-Header Status -->
+<div class="flex items-center justify-between pb-space-sm bg-canvas-light px-space-md py-2.5 rounded-lg">
+<div class="flex items-center gap-2">
+<span class="w-2.5 h-2.5 rounded-full bg-inverse-primary"></span>
+<span class="font-label-mono-tag text-label-mono-tag font-semibold text-text-light-primary">FIREBIRD_STUDIO // ATHLETIC_PORTAL</span>
+</div>
+<span class="font-label-mono-tag text-[11px] text-text-muted font-semibold">WHITE-LABEL TENANT #881</span>
+</div>
+<!-- Calendar & Regimen Grid -->
+<div class="grid grid-cols-1 sm:grid-cols-3 gap-space-sm">
+<div class="bg-canvas-light p-space-sm rounded-lg flex flex-col justify-between">
+<span class="font-label-mono-tag text-[10px] text-text-muted uppercase">ACTIVE MEMBERS</span>
+<span class="font-headline-md text-headline-md text-text-light-primary font-bold">1,840</span>
+<span class="font-body-sm text-[12px] text-emerald-600 font-semibold">94% Retention Rate</span>
+</div>
+<div class="bg-canvas-light p-space-sm rounded-lg flex flex-col justify-between">
+<span class="font-label-mono-tag text-[10px] text-text-muted uppercase">RECURRING REVENUE</span>
+<span class="font-headline-md text-headline-md text-text-light-primary font-bold">£52,480</span>
+<span class="font-body-sm text-[12px] text-text-muted">Auto-Debited Monthly</span>
+</div>
+<div class="bg-canvas-light p-space-sm rounded-lg flex flex-col justify-between">
+<span class="font-label-mono-tag text-[10px] text-text-muted uppercase">CLASS CAPACITY</span>
+<span class="font-headline-md text-headline-md text-text-light-primary font-bold">96.8%</span>
+<span class="font-body-sm text-[12px] text-inverse-primary font-semibold">Waitlist Activated</span>
+</div>
+</div>
+<!-- Class Schedule & Regimen Plan Card -->
+<div class="bg-canvas-light p-space-md rounded-lg flex flex-col gap-space-sm">
+<div class="flex justify-between items-center">
+<span class="font-label-lg text-label-lg font-semibold text-text-light-primary">Live Daily Schedule &amp; Trainer Roster</span>
+<span class="font-label-mono-tag text-label-mono-tag text-inverse-primary font-semibold">ROOM A + ROOM B</span>
+</div>
+<div class="space-y-2">
+<div class="flex items-center justify-between bg-surface-light p-2.5 rounded shadow-sm">
+<div class="flex items-center gap-space-sm">
+<span class="font-label-mono-tag text-[11px] font-bold text-inverse-primary">07:00 AM</span>
+<span class="font-body-md text-body-md font-semibold text-text-light-primary">High-Intensity Conditioning (Elite Tier)</span>
+</div>
+<span class="font-body-sm text-body-sm bg-emerald-100 text-emerald-800 px-2 py-0.5 rounded font-medium">Full • 24/24</span>
+</div>
+<div class="flex items-center justify-between bg-surface-light p-2.5 rounded shadow-sm">
+<div class="flex items-center gap-space-sm">
+<span class="font-label-mono-tag text-[11px] font-bold text-inverse-primary">09:30 AM</span>
+<span class="font-body-md text-body-md font-semibold text-text-light-primary">Mobility &amp; Strength Regimen Protocol</span>
+</div>
+<span class="font-body-sm text-body-sm bg-blue-100 text-inverse-primary px-2 py-0.5 rounded font-medium">18/20 Booked</span>
+</div>
+</div>
+</div>
+<!-- Member Regimen Builder Snippet -->
+<div class="bg-surface-light p-space-sm rounded-lg flex items-center justify-between shadow-sm">
+<div class="flex items-center gap-3">
+<div class="w-8 h-8 rounded-full bg-primary-container/20 flex items-center justify-center text-inverse-primary">
+<span class="material-symbols-outlined text-[18px]">sports_martial_arts</span>
+</div>
+<div class="flex flex-col">
+<span class="font-body-sm text-body-sm font-semibold text-text-light-primary">Custom Regimen Builder: 12-Week Hypertrophy</span>
+<span class="font-label-mono-tag text-[11px] text-text-muted">Assigned to 142 Active Members • Auto-Progression Synced</span>
+</div>
+</div>
+<span class="material-symbols-outlined text-inverse-primary text-[20px]">chevron_right</span>
+</div>
+</div>
+</div>
+<!-- Right: Verified Capabilities & Detail -->
+<div class="lg:col-span-5 flex flex-col gap-space-md order-1 lg:order-2">
+<p class="font-body-md text-body-md text-text-muted leading-relaxed">
+            Engineered for boutique health studios, gym franchises, and personal training academies seeking complete operational sovereignty over their brand, membership revenue, and client workout regimens.
+          </p>
+<div class="grid grid-cols-1 gap-space-sm pt-space-xs">
+<div class="flex items-start gap-space-sm bg-surface-light p-space-sm rounded-lg shadow-sm">
+<span class="material-symbols-outlined text-inverse-primary text-[20px] shrink-0 mt-0.5" style="font-variation-settings: 'FILL' 1;">check_circle</span>
+<div class="flex flex-col">
+<span class="font-headline-sm text-headline-sm font-semibold text-text-light-primary">Complete Brand Customization &amp; White-Labeling</span>
+<span class="font-body-sm text-body-sm text-text-muted">Deploy under your studio's custom domain with custom mobile aesthetics.</span>
+</div>
+</div>
+<div class="flex items-start gap-space-sm bg-surface-light p-space-sm rounded-lg shadow-sm">
+<span class="material-symbols-outlined text-inverse-primary text-[20px] shrink-0 mt-0.5" style="font-variation-settings: 'FILL' 1;">check_circle</span>
+<div class="flex flex-col">
+<span class="font-headline-sm text-headline-sm font-semibold text-text-light-primary">Custom Studio Website Integration</span>
+<span class="font-body-sm text-body-sm text-text-muted">Instant conversion widgets, timetable embeds, and digital lead signups.</span>
+</div>
+</div>
+<div class="flex items-start gap-space-sm bg-surface-light p-space-sm rounded-lg shadow-sm">
+<span class="material-symbols-outlined text-inverse-primary text-[20px] shrink-0 mt-0.5" style="font-variation-settings: 'FILL' 1;">check_circle</span>
+<div class="flex flex-col">
+<span class="font-headline-sm text-headline-sm font-semibold text-text-light-primary">Tiered Payment-Plan &amp; Recurring Billing</span>
+<span class="font-body-sm text-body-sm text-text-muted">Automated card debits, failed payment retry logic, and zero invoice chasing.</span>
+</div>
+</div>
+<div class="flex items-start gap-space-sm bg-surface-light p-space-sm rounded-lg shadow-sm">
+<span class="material-symbols-outlined text-inverse-primary text-[20px] shrink-0 mt-0.5" style="font-variation-settings: 'FILL' 1;">check_circle</span>
+<div class="flex flex-col">
+<span class="font-headline-sm text-headline-sm font-semibold text-text-light-primary">Structured Workout-Regimen &amp; Scheduling</span>
+<span class="font-body-sm text-body-sm text-text-muted">Deliver customized programming and track progression inside client accounts.</span>
+</div>
+</div>
+<div class="flex items-start gap-space-sm bg-surface-light p-space-sm rounded-lg shadow-sm">
+<span class="material-symbols-outlined text-inverse-primary text-[20px] shrink-0 mt-0.5" style="font-variation-settings: 'FILL' 1;">check_circle</span>
+<div class="flex flex-col">
+<span class="font-headline-sm text-headline-sm font-semibold text-text-light-primary">Centralized Member Records &amp; Attendance</span>
+<span class="font-body-sm text-body-sm text-text-muted">Automated check-ins, medical note storage, and retention risk tracking.</span>
+</div>
+</div>
+</div>
+<div class="pt-space-sm">
+<a class="inline-flex items-center justify-center h-11 px-7 bg-primary-container text-on-primary-container font-label-lg text-label-lg rounded-lg hover:bg-primary hover:text-on-primary transition-colors" href="#">
+              Explore Fitness CRM
+            </a>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- ========================================================================= -->
+<!-- 5. FEATURED PRODUCT 03 — CROWDR SPORTS CRM (Dark Obsidian Container) -->
+<!-- ========================================================================= -->
+<section class="w-full bg-surface py-margin-desktop px-gutter lg:px-gutter-desktop" id="sports-crm">
+<div class="max-w-[1360px] mx-auto flex flex-col gap-space-xl">
+<div class="flex flex-col gap-space-sm max-w-3xl">
+<span class="font-label-mono-tag text-label-mono-tag text-tertiary tracking-widest uppercase">
+          03 // ATHLETIC CLUBS &amp; ARENA MANAGEMENT
+        </span>
+<h2 class="font-headline-xl text-headline-xl text-on-surface font-semibold tracking-tight">
+          Crowdr Sports CRM
+        </h2>
+<p class="font-headline-md text-headline-md text-tertiary font-normal">
+          Integrated Matchday Ticketing, Club CRM &amp; Omnichannel Supporter Commerce
+        </p>
+</div>
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-gutter-desktop items-center">
+<!-- Left: Verified Capabilities List -->
+<div class="lg:col-span-5 flex flex-col gap-space-md">
+<p class="font-body-md text-body-md text-text-muted leading-relaxed">
+            Constructed specifically for football clubs, rugby unions, athletics associations, and modern sports venues seeking to unite ticketing gate data with lifelong fan merchandising and membership loyalty.
+          </p>
+<div class="space-y-space-sm pt-space-xs">
+<div class="bg-surface-container p-space-md rounded-lg flex items-start gap-space-sm">
+<span class="material-symbols-outlined text-tertiary text-[20px] shrink-0 mt-0.5" style="font-variation-settings: 'FILL' 1;">sports_soccer</span>
+<div>
+<h4 class="font-headline-sm text-headline-sm text-on-surface font-semibold">Matchday &amp; Season Pass Digital Ticketing</h4>
+<p class="font-body-sm text-body-sm text-text-muted mt-0.5">Interactive stadium seat maps, tiered season packages, and NFC-ready mobile wallets.</p>
+</div>
+</div>
+<div class="bg-surface-container p-space-md rounded-lg flex items-start gap-space-sm">
+<span class="material-symbols-outlined text-tertiary text-[20px] shrink-0 mt-0.5" style="font-variation-settings: 'FILL' 1;">groups</span>
+<div>
+<h4 class="font-headline-sm text-headline-sm text-on-surface font-semibold">Supporter Relationship Management (CRM)</h4>
+<p class="font-body-sm text-body-sm text-text-muted mt-0.5">Unified fan profiles aggregating attendance frequency, hospitality bookings, and retail history.</p>
+</div>
+</div>
+<div class="bg-surface-container p-space-md rounded-lg flex items-start gap-space-sm">
+<span class="material-symbols-outlined text-tertiary text-[20px] shrink-0 mt-0.5" style="font-variation-settings: 'FILL' 1;">calendar_month</span>
+<div>
+<h4 class="font-headline-sm text-headline-sm text-on-surface font-semibold">Multi-Venue Event &amp; Match Scheduling</h4>
+<p class="font-body-sm text-body-sm text-text-muted mt-0.5">Synchronize fixture changes, tournament phases, and auxiliary stadium events in one portal.</p>
+</div>
+</div>
+<div class="bg-surface-container p-space-md rounded-lg flex items-start gap-space-sm">
+<span class="material-symbols-outlined text-tertiary text-[20px] shrink-0 mt-0.5" style="font-variation-settings: 'FILL' 1;">shopping_bag</span>
+<div>
+<h4 class="font-headline-sm text-headline-sm text-on-surface font-semibold">High-Conversion Online Merchandise &amp; Ticket Sales</h4>
+<p class="font-body-sm text-body-sm text-text-muted mt-0.5">Cross-sell official club apparel and hospitality upgrades directly during checkout.</p>
+</div>
+</div>
+<div class="bg-surface-container p-space-md rounded-lg flex items-start gap-space-sm">
+<span class="material-symbols-outlined text-tertiary text-[20px] shrink-0 mt-0.5" style="font-variation-settings: 'FILL' 1;">campaign</span>
+<div>
+<h4 class="font-headline-sm text-headline-sm text-on-surface font-semibold">Targeted Fan Marketing &amp; Campaign Automation</h4>
+<p class="font-body-sm text-body-sm text-text-muted mt-0.5">Automated SMS/Email journeys triggered by attendance, birthdays, and away derby days.</p>
+</div>
+</div>
+</div>
+<div class="pt-space-sm">
+<a class="inline-flex items-center justify-center h-11 px-7 bg-primary-container text-on-primary-container font-label-lg text-label-lg rounded-lg hover:bg-primary hover:text-on-primary transition-colors" href="#">
+              Explore Sports CRM
+            </a>
+</div>
+</div>
+<!-- Right: Stadium Seat Map & Supporter Dashboard Visual -->
+<div class="lg:col-span-7">
+<div class="bg-surface-dark-elevated rounded-xl p-space-lg shadow-2xl flex flex-col gap-space-md">
+<div class="flex items-center justify-between pb-space-sm">
+<div class="flex items-center gap-space-sm">
+<span class="material-symbols-outlined text-tertiary text-[22px]">stadium</span>
+<span class="font-headline-sm text-headline-sm text-on-surface font-semibold">Stamford Arena • West Stand Allocation</span>
+</div>
+<span class="font-label-mono-tag text-[11px] bg-tertiary/10 text-tertiary px-2.5 py-1 rounded font-semibold">
+                MATCHDAY -24H • 91% CAPACITY
+              </span>
+</div>
+<!-- Conceptual Stadium Seating Visualization -->
+<div class="bg-surface-container rounded-lg p-space-md flex flex-col items-center justify-center min-h-[220px] relative overflow-hidden">
+<div class="w-full flex items-center justify-between font-label-mono-tag text-[10px] text-text-muted mb-3">
+<span>PITCH ORIENTATION NORTH</span>
+<span>TUNNEL ACCESS G</span>
+</div>
+<!-- Seating Block Grid -->
+<div class="grid grid-cols-8 gap-2 w-full max-w-md my-auto">
+<div class="h-6 rounded bg-tertiary text-[10px] flex items-center justify-center font-bold text-on-tertiary">A1</div>
+<div class="h-6 rounded bg-tertiary text-[10px] flex items-center justify-center font-bold text-on-tertiary">A2</div>
+<div class="h-6 rounded bg-tertiary text-[10px] flex items-center justify-center font-bold text-on-tertiary">A3</div>
+<div class="h-6 rounded bg-primary text-[10px] flex items-center justify-center font-bold text-on-primary">A4</div>
+<div class="h-6 rounded bg-primary text-[10px] flex items-center justify-center font-bold text-on-primary">A5</div>
+<div class="h-6 rounded bg-tertiary text-[10px] flex items-center justify-center font-bold text-on-tertiary">A6</div>
+<div class="h-6 rounded bg-tertiary text-[10px] flex items-center justify-center font-bold text-on-tertiary">A7</div>
+<div class="h-6 rounded bg-tertiary text-[10px] flex items-center justify-center font-bold text-on-tertiary">A8</div>
+<div class="h-6 rounded bg-tertiary text-[10px] flex items-center justify-center font-bold text-on-tertiary">B1</div>
+<div class="h-6 rounded bg-tertiary text-[10px] flex items-center justify-center font-bold text-on-tertiary">B2</div>
+<div class="h-6 rounded bg-surface-bright text-[10px] flex items-center justify-center font-semibold text-text-muted">B3</div>
+<div class="h-6 rounded bg-surface-bright text-[10px] flex items-center justify-center font-semibold text-text-muted">B4</div>
+<div class="h-6 rounded bg-tertiary text-[10px] flex items-center justify-center font-bold text-on-tertiary">B5</div>
+<div class="h-6 rounded bg-tertiary text-[10px] flex items-center justify-center font-bold text-on-tertiary">B6</div>
+<div class="h-6 rounded bg-tertiary text-[10px] flex items-center justify-center font-bold text-on-tertiary">B7</div>
+<div class="h-6 rounded bg-tertiary text-[10px] flex items-center justify-center font-bold text-on-tertiary">B8</div>
+</div>
+<div class="flex items-center gap-4 mt-4 font-label-mono-tag text-[10px] text-text-muted">
+<div class="flex items-center gap-1.5"><span class="w-2.5 h-2.5 rounded bg-tertiary"></span> Season Pass (Claimed)</div>
+<div class="flex items-center gap-1.5"><span class="w-2.5 h-2.5 rounded bg-primary"></span> VIP Hospitality</div>
+<div class="flex items-center gap-1.5"><span class="w-2.5 h-2.5 rounded bg-surface-bright"></span> Open On-Sale</div>
+</div>
+</div>
+<!-- Supporter Engagement Row -->
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-space-sm">
+<div class="bg-surface-container rounded-lg p-space-sm flex flex-col justify-between">
+<span class="font-label-mono-tag text-[10px] text-text-muted uppercase">FAN LIFECYCLE INDEX</span>
+<span class="font-headline-md text-headline-md text-on-surface font-semibold mt-1">42,800 Fans</span>
+<span class="font-body-sm text-[12px] text-primary">82% Verified Digital Identifiers</span>
+</div>
+<div class="bg-surface-container rounded-lg p-space-sm flex flex-col justify-between">
+<span class="font-label-mono-tag text-[10px] text-text-muted uppercase">MERCHANDISE CROSS-SELL</span>
+<span class="font-headline-md text-headline-md text-emerald-400 font-semibold mt-1">+34.8%</span>
+<span class="font-body-sm text-[12px] text-text-muted">Conversion with Ticket Bundle</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- ========================================================================= -->
+<!-- 6. FEATURED PRODUCT 04 — GROWTHFACTOR CRM (Warm Off-White Editorial) -->
+<!-- ========================================================================= -->
+<section class="w-full bg-canvas-light text-text-light-primary py-margin-desktop px-gutter lg:px-gutter-desktop" id="growthfactor">
+<div class="max-w-[1360px] mx-auto flex flex-col gap-space-xl">
+<div class="flex flex-col gap-space-sm max-w-3xl">
+<span class="font-label-mono-tag text-label-mono-tag text-inverse-primary tracking-widest uppercase font-bold">
+          04 // ENTERPRISE SALES ACCELERATION
+        </span>
+<h2 class="font-headline-xl text-headline-xl text-text-light-primary font-semibold tracking-tight">
+          GrowthFactor CRM
+        </h2>
+<p class="font-headline-md text-headline-md text-inverse-primary font-normal">
+          Intelligent Lead Tracking, Deal Pipelines &amp; Commercial Visibility
+        </p>
+</div>
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-gutter-desktop items-center">
+<!-- Left: Sales Pipeline Board Mockup -->
+<div class="lg:col-span-7 order-2 lg:order-1">
+<div class="bg-surface-light rounded-xl p-space-md shadow-xl flex flex-col gap-space-md">
+<div class="flex items-center justify-between pb-space-sm bg-canvas-light px-space-md py-2.5 rounded-lg">
+<span class="font-label-mono-tag text-label-mono-tag font-semibold text-text-light-primary">
+                GROWTHFACTOR // COMMERCIAL_PIPELINE
+              </span>
+<span class="font-label-mono-tag text-[11px] text-inverse-primary font-semibold">Q3 REVENUE TARGET: 94% REACHED</span>
+</div>
+<!-- Pipeline Kanban Columns -->
+<div class="grid grid-cols-3 gap-space-sm">
+<!-- Column 1: Qualified Leads -->
+<div class="bg-canvas-light p-2.5 rounded-lg flex flex-col gap-2">
+<div class="flex justify-between items-center text-text-muted font-label-mono-tag text-[10px]">
+<span>DISCOVERY (6)</span>
+<span class="font-bold text-text-light-primary">$420K</span>
+</div>
+<div class="bg-surface-light p-2.5 rounded shadow-sm text-body-sm">
+<span class="font-label-mono-tag text-[10px] text-inverse-primary block font-semibold">ENTERPRISE LOGISTICS</span>
+<p class="font-semibold text-text-light-primary mt-0.5">Omega Rail Corp</p>
+<span class="text-text-muted text-[12px]">$120k ARR • Stage 1</span>
+</div>
+<div class="bg-surface-light p-2.5 rounded shadow-sm text-body-sm">
+<span class="font-label-mono-tag text-[10px] text-inverse-primary block font-semibold">GLOBAL HEALTH</span>
+<p class="font-semibold text-text-light-primary mt-0.5">Apex Gym Network</p>
+<span class="text-text-muted text-[12px]">$85k ARR • Demo Booked</span>
+</div>
+</div>
+<!-- Column 2: Negotiation -->
+<div class="bg-canvas-light p-2.5 rounded-lg flex flex-col gap-2">
+<div class="flex justify-between items-center text-text-muted font-label-mono-tag text-[10px]">
+<span>PROPOSAL (4)</span>
+<span class="font-bold text-text-light-primary">$890K</span>
+</div>
+<div class="bg-surface-light p-2.5 rounded shadow-sm text-body-sm border-l-2 border-inverse-primary">
+<span class="font-label-mono-tag text-[10px] text-emerald-600 block font-semibold">90% PROBABILITY</span>
+<p class="font-semibold text-text-light-primary mt-0.5">Stratus Cloud PLC</p>
+<span class="text-text-muted text-[12px]">$340k ARR • Legal Review</span>
+</div>
+<div class="bg-surface-light p-2.5 rounded shadow-sm text-body-sm">
+<span class="font-label-mono-tag text-[10px] text-inverse-primary block font-semibold">SPORTS LEAGUE</span>
+<p class="font-semibold text-text-light-primary mt-0.5">Celtic Athletic Trust</p>
+<span class="text-text-muted text-[12px]">$195k ARR • Master Contract</span>
+</div>
+</div>
+<!-- Column 3: Closed Won -->
+<div class="bg-canvas-light p-2.5 rounded-lg flex flex-col gap-2">
+<div class="flex justify-between items-center text-text-muted font-label-mono-tag text-[10px]">
+<span>CLOSED WON (18)</span>
+<span class="font-bold text-emerald-600">$2.1M</span>
+</div>
+<div class="bg-surface-light p-2.5 rounded shadow-sm text-body-sm">
+<span class="font-label-mono-tag text-[10px] text-emerald-600 block font-semibold">EXECUTED TODAY</span>
+<p class="font-semibold text-text-light-primary mt-0.5">Vanguard Facilities</p>
+<span class="text-emerald-700 font-semibold text-[12px]">+$240,000 Verified</span>
+</div>
+</div>
+</div>
+<!-- Revenue Velocity Metric Row -->
+<div class="grid grid-cols-2 gap-space-sm pt-space-xs">
+<div class="bg-canvas-light p-space-sm rounded-lg flex items-center justify-between">
+<div>
+<span class="font-label-mono-tag text-[10px] text-text-muted uppercase">SALES CYCLE VELOCITY</span>
+<p class="font-headline-sm text-headline-sm text-text-light-primary font-bold">28.4 Days</p>
+</div>
+<span class="material-symbols-outlined text-inverse-primary text-[28px]">speed</span>
+</div>
+<div class="bg-canvas-light p-space-sm rounded-lg flex items-center justify-between">
+<div>
+<span class="font-label-mono-tag text-[10px] text-text-muted uppercase">LEAD-TO-DEAL CONVERSION</span>
+<p class="font-headline-sm text-headline-sm text-emerald-600 font-bold">34.2%</p>
+</div>
+<span class="material-symbols-outlined text-emerald-600 text-[28px]">trending_up</span>
+</div>
+</div>
+</div>
+</div>
+<!-- Right: Capabilities Breakdown -->
+<div class="lg:col-span-5 flex flex-col gap-space-md order-1 lg:order-2">
+<p class="font-body-md text-body-md text-text-muted leading-relaxed">
+            Eliminates spreadsheet ambiguity and disconnected sales communications with a structured revenue acceleration platform built for high-growth commercial teams.
+          </p>
+<div class="grid grid-cols-1 gap-2.5 pt-space-xs">
+<div class="flex items-center gap-space-sm bg-surface-light p-2.5 rounded shadow-sm">
+<span class="material-symbols-outlined text-inverse-primary text-[18px]">filter_alt</span>
+<span class="font-body-md text-body-md text-text-light-primary font-medium">Unified Lead Management &amp; Automated Ingestion</span>
+</div>
+<div class="flex items-center gap-space-sm bg-surface-light p-2.5 rounded shadow-sm">
+<span class="material-symbols-outlined text-inverse-primary text-[18px]">connect_without_contact</span>
+<span class="font-body-md text-body-md text-text-light-primary font-medium">Omni-Channel Contact &amp; Account Tracking</span>
+</div>
+<div class="flex items-center gap-space-sm bg-surface-light p-2.5 rounded shadow-sm">
+<span class="material-symbols-outlined text-inverse-primary text-[18px]">view_kanban</span>
+<span class="font-body-md text-body-md text-text-light-primary font-medium">Dynamic Sales Opportunity &amp; Pipeline Stages</span>
+</div>
+<div class="flex items-center gap-space-sm bg-surface-light p-2.5 rounded shadow-sm">
+<span class="material-symbols-outlined text-inverse-primary text-[18px]">insights</span>
+<span class="font-body-md text-body-md text-text-light-primary font-medium">Multi-Touch Commercial Analytics &amp; Forecasting</span>
+</div>
+<div class="flex items-center gap-space-sm bg-surface-light p-2.5 rounded shadow-sm">
+<span class="material-symbols-outlined text-inverse-primary text-[18px]">dataset</span>
+<span class="font-body-md text-body-md text-text-light-primary font-medium">Structured Customer Data Organization</span>
+</div>
+<div class="flex items-center gap-space-sm bg-surface-light p-2.5 rounded shadow-sm">
+<span class="material-symbols-outlined text-inverse-primary text-[18px]">dashboard</span>
+<span class="font-body-md text-body-md text-text-light-primary font-medium">Executive Dashboards &amp; Operational Reporting</span>
+</div>
+</div>
+<div class="pt-space-sm">
+<a class="inline-flex items-center justify-center h-11 px-7 bg-primary-container text-on-primary-container font-label-lg text-label-lg rounded-lg hover:bg-primary hover:text-on-primary transition-colors" href="#">
+              Explore GrowthFactor CRM
+            </a>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- ========================================================================= -->
+<!-- 7. FEATURED PRODUCT 05 — CROWDR EVENT TICKETING (Dark Obsidian Section) -->
+<!-- ========================================================================= -->
+<section class="w-full bg-surface-container-lowest text-on-surface py-margin-desktop px-gutter lg:px-gutter-desktop" id="event-ticketing">
+<div class="max-w-[1360px] mx-auto flex flex-col gap-space-xl">
+<div class="flex flex-col gap-space-sm max-w-3xl">
+<span class="font-label-mono-tag text-label-mono-tag text-tertiary-container tracking-widest uppercase">
+          05 // LIVE ENTERTAINMENT &amp; EXPERIENCES
+        </span>
+<h2 class="font-headline-xl text-headline-xl text-on-surface font-semibold tracking-tight">
+          Crowdr — Event CRM
+        </h2>
+<p class="font-headline-md text-headline-md text-tertiary-container font-normal">
+          Bespoke Ticketing Infrastructure &amp; Attendee Journey Management
+        </p>
+</div>
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-gutter-desktop items-center">
+<!-- Left: Verified Capabilities -->
+<div class="lg:col-span-5 flex flex-col gap-space-md">
+<p class="font-body-md text-body-md text-text-muted leading-relaxed">
+            Constructed for music festivals, arena promoters, independent conferences, and cultural organizers requiring zero-latency high-concurrency ticket checkouts paired with deterministic barcode validation.
+          </p>
+<div class="space-y-space-sm pt-space-xs">
+<div class="bg-surface-dark-elevated p-space-md rounded-lg flex items-start gap-space-sm">
+<span class="material-symbols-outlined text-tertiary-container text-[20px] shrink-0 mt-0.5" style="font-variation-settings: 'FILL' 1;">confirmation_number</span>
+<div>
+<h4 class="font-headline-sm text-headline-sm text-on-surface font-semibold">High-Throughput Ticket Purchasing Engine</h4>
+<p class="font-body-sm text-body-sm text-text-muted mt-0.5">Designed to handle massive ticket on-sale spikes without queue crashes or duplicate seat allocations.</p>
+</div>
+</div>
+<div class="bg-surface-dark-elevated p-space-md rounded-lg flex items-start gap-space-sm">
+<span class="material-symbols-outlined text-tertiary-container text-[20px] shrink-0 mt-0.5" style="font-variation-settings: 'FILL' 1;">chair</span>
+<div>
+<h4 class="font-headline-sm text-headline-sm text-on-surface font-semibold">Dynamic Seating &amp; Tiered Admission Management</h4>
+<p class="font-body-sm text-body-sm text-text-muted mt-0.5">General admission, VIP lounges, early-bird tiers, and backstage passes configured in seconds.</p>
+</div>
+</div>
+<div class="bg-surface-dark-elevated p-space-md rounded-lg flex items-start gap-space-sm">
+<span class="material-symbols-outlined text-tertiary-container text-[20px] shrink-0 mt-0.5" style="font-variation-settings: 'FILL' 1;">account_circle</span>
+<div>
+<h4 class="font-headline-sm text-headline-sm text-on-surface font-semibold">Attendee Profile Data &amp; Order History</h4>
+<p class="font-body-sm text-body-sm text-text-muted mt-0.5">Full customer profiles with lifetime spend, refund history, and opted-in marketing permissions.</p>
+</div>
+</div>
+<div class="bg-surface-dark-elevated p-space-md rounded-lg flex items-start gap-space-sm">
+<span class="material-symbols-outlined text-tertiary-container text-[20px] shrink-0 mt-0.5" style="font-variation-settings: 'FILL' 1;">qr_code_scanner</span>
+<div>
+<h4 class="font-headline-sm text-headline-sm text-on-surface font-semibold">Real-Time Gate Scanning &amp; Entry Verification</h4>
+<p class="font-body-sm text-body-sm text-text-muted mt-0.5">Instant mobile scanner app syncing with sub-second speeds to block duplicate tickets.</p>
+</div>
+</div>
+<div class="bg-surface-dark-elevated p-space-md rounded-lg flex items-start gap-space-sm">
+<span class="material-symbols-outlined text-tertiary-container text-[20px] shrink-0 mt-0.5" style="font-variation-settings: 'FILL' 1;">receipt_long</span>
+<div>
+<h4 class="font-headline-sm text-headline-sm text-on-surface font-semibold">Promoter Revenue Settlement &amp; Audit Trails</h4>
+<p class="font-body-sm text-body-sm text-text-muted mt-0.5">Transparent ledger settlements, split payments, and statutory ticketing compliance reports.</p>
+</div>
+</div>
+</div>
+<div class="pt-space-sm">
+<a class="inline-flex items-center justify-center h-11 px-7 bg-primary-container text-on-primary-container font-label-lg text-label-lg rounded-lg hover:bg-primary hover:text-on-primary transition-colors" href="#">
+              Explore Crowdr Events
+            </a>
+</div>
+</div>
+<!-- Right: Mobile Pass & Gate Turnstile Visual -->
+<div class="lg:col-span-7">
+<div class="bg-surface-dark rounded-xl p-space-lg shadow-2xl flex flex-col sm:flex-row gap-space-md items-center justify-center">
+<!-- Mobile Wallet Digital Ticket Pass -->
+<div class="w-full sm:w-64 bg-surface-container-high rounded-2xl p-space-md flex flex-col justify-between shadow-xl border-t-4 border-tertiary-container">
+<div>
+<div class="flex justify-between items-start">
+<span class="font-label-mono-tag text-[10px] text-text-muted">CROWDR PASS #TX-9021</span>
+<span class="material-symbols-outlined text-tertiary-container text-[20px]">nfc</span>
+</div>
+<h5 class="font-headline-sm text-headline-sm text-on-surface font-semibold mt-2">Echo Sound Summit 2025</h5>
+<span class="font-body-sm text-body-sm text-tertiary-container block font-medium">VIP Weekend Access</span>
+</div>
+<!-- Mock QR Code Box -->
+<div class="my-space-md bg-surface-light p-3 rounded-lg flex flex-col items-center justify-center">
+<span class="material-symbols-outlined text-[80px] text-text-light-primary">qr_code_2</span>
+<span class="font-label-mono-tag text-[9px] text-text-muted mt-1">DYNAMIC ROLLING TOKEN • 24s</span>
+</div>
+<div class="space-y-1 text-body-sm font-label-mono-tag text-[11px] text-text-muted">
+<div class="flex justify-between"><span>SECTOR:</span> <span class="text-on-surface font-bold">L-3 / ARENA</span></div>
+<div class="flex justify-between"><span>ENTRY:</span> <span class="text-on-surface font-bold">GATE NORTH 02</span></div>
+</div>
+</div>
+<!-- Promoter Analytics Breakdown Pane -->
+<div class="flex-1 w-full bg-surface-container rounded-xl p-space-md flex flex-col gap-space-sm">
+<span class="font-label-mono-tag text-[11px] text-tertiary-container uppercase font-semibold">
+                PROMOTER GATE REAL-TIME TELEMETRY
+              </span>
+<div class="space-y-2 mt-1">
+<div class="bg-surface-dark-elevated p-space-sm rounded">
+<span class="font-label-mono-tag text-[10px] text-text-muted block">TOTAL TICKETS SOLD</span>
+<div class="flex items-baseline justify-between">
+<span class="font-headline-md text-headline-md text-on-surface font-bold">14,250</span>
+<span class="text-emerald-400 font-label-mono-tag text-[11px]">100% SOLD OUT</span>
+</div>
+</div>
+<div class="bg-surface-dark-elevated p-space-sm rounded">
+<span class="font-label-mono-tag text-[10px] text-text-muted block">GATES INGRESS VELOCITY</span>
+<div class="flex items-baseline justify-between">
+<span class="font-headline-md text-headline-md text-on-surface font-bold">640 / min</span>
+<span class="text-tertiary-container font-label-mono-tag text-[11px]">AVG 1.2s SCAN</span>
+</div>
+</div>
+<div class="bg-surface-dark-elevated p-space-sm rounded">
+<span class="font-label-mono-tag text-[10px] text-text-muted block">TOTAL SETTLED REVENUE</span>
+<div class="flex items-baseline justify-between">
+<span class="font-headline-md text-headline-md text-emerald-400 font-bold">£712,500</span>
+<span class="text-text-muted font-label-mono-tag text-[11px]">AUDITED</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- ========================================================================= -->
+<!-- 8. INTERACTIVE PRODUCT EXPLORER & DIRECTORY -->
+<!-- ========================================================================= -->
+<section class="w-full bg-surface py-margin-desktop px-gutter lg:px-gutter-desktop" id="product-explorer">
+<div class="max-w-[1360px] mx-auto flex flex-col gap-space-lg">
+<!-- Section Headers -->
+<div class="flex flex-col md:flex-row md:items-end justify-between gap-space-md">
+<div class="flex flex-col gap-space-xs max-w-2xl">
+<span class="font-label-mono-tag text-label-mono-tag text-primary tracking-widest uppercase">
+            VERIFIED PLATFORM DIRECTORY
+          </span>
+<h2 class="font-headline-xl text-headline-xl text-on-surface font-semibold tracking-tight">
+            Find the Right Platform for Your Business.
+          </h2>
+<p class="font-body-md text-body-md text-text-muted">
+            Filter our verified product suite by industry domain or operational requirement.
+          </p>
+</div>
+<!-- Pill Filter Navigation -->
+<div class="flex flex-wrap items-center gap-2" id="filter-container">
+<button class="filter-pill px-4 py-2 rounded-full font-label-mono-tag text-label-mono-tag uppercase bg-primary-container text-on-primary-container font-semibold transition-all" data-filter="all">
+            All Products (5)
+          </button>
+<button class="filter-pill px-4 py-2 rounded-full font-label-mono-tag text-label-mono-tag uppercase bg-surface-container text-on-surface-variant hover:text-on-surface font-medium transition-all" data-filter="logistics">
+            Workforce &amp; Logistics (1)
+          </button>
+<button class="filter-pill px-4 py-2 rounded-full font-label-mono-tag text-label-mono-tag uppercase bg-surface-container text-on-surface-variant hover:text-on-surface font-medium transition-all" data-filter="fitness">
+            Fitness &amp; Wellness (1)
+          </button>
+<button class="filter-pill px-4 py-2 rounded-full font-label-mono-tag text-label-mono-tag uppercase bg-surface-container text-on-surface-variant hover:text-on-surface font-medium transition-all" data-filter="sports">
+            Sports &amp; Events (2)
+          </button>
+<button class="filter-pill px-4 py-2 rounded-full font-label-mono-tag text-label-mono-tag uppercase bg-surface-container text-on-surface-variant hover:text-on-surface font-medium transition-all" data-filter="crm">
+            Sales CRM (1)
+          </button>
+</div>
+</div>
+<!-- Product Cards Grid (5 Products) -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-gutter mt-space-md" id="products-grid">
+<!-- Card 1: Smart Collect -->
+<div class="product-item bg-surface-container rounded-xl p-space-lg flex flex-col justify-between gap-space-md shadow-md hover:shadow-xl transition-all duration-300" data-category="logistics">
+<div class="flex flex-col gap-space-sm">
+<div class="flex justify-between items-start">
+<span class="font-label-mono-tag text-label-mono-tag bg-primary/10 text-primary px-2.5 py-1 rounded uppercase font-semibold">
+                Mobile Workforce &amp; Logistics
+              </span>
+<span class="material-symbols-outlined text-primary text-[24px]">local_shipping</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-on-surface font-semibold mt-2">Smart Collect</h3>
+<p class="font-body-sm text-body-sm text-text-muted leading-relaxed">
+              Waste collection routing, driver safety pre-trip checklists, statutory digital documents, and live telemetry navigation.
+            </p>
+<div class="flex flex-wrap gap-1.5 pt-2">
+<span class="font-label-mono-tag text-[10px] bg-surface-dark-elevated text-on-surface px-2 py-1 rounded">Route Optimization</span>
+<span class="font-label-mono-tag text-[10px] bg-surface-dark-elevated text-on-surface px-2 py-1 rounded">Defect Checklists</span>
+<span class="font-label-mono-tag text-[10px] bg-surface-dark-elevated text-on-surface px-2 py-1 rounded">Google Maps Nav</span>
+</div>
+</div>
+<a class="inline-flex items-center gap-1.5 text-primary font-headline-sm text-label-lg font-semibold hover:text-cyan-glow transition-colors pt-space-xs" href="#smart-collect">
+<span>Explore Platform</span>
+<span class="material-symbols-outlined text-[16px]">north_east</span>
+</a>
+</div>
+<!-- Card 2: Firebird Fitness CRM -->
+<div class="product-item bg-surface-container rounded-xl p-space-lg flex flex-col justify-between gap-space-md shadow-md hover:shadow-xl transition-all duration-300" data-category="fitness">
+<div class="flex flex-col gap-space-sm">
+<div class="flex justify-between items-start">
+<span class="font-label-mono-tag text-label-mono-tag bg-primary/10 text-primary px-2.5 py-1 rounded uppercase font-semibold">
+                Fitness &amp; Wellness
+              </span>
+<span class="material-symbols-outlined text-primary text-[24px]">fitness_center</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-on-surface font-semibold mt-2">Firebird Fitness CRM</h3>
+<p class="font-body-sm text-body-sm text-text-muted leading-relaxed">
+              White-labeled studio operations, automated recurring member billing, custom workout-regimen building, and attendance operations.
+            </p>
+<div class="flex flex-wrap gap-1.5 pt-2">
+<span class="font-label-mono-tag text-[10px] bg-surface-dark-elevated text-on-surface px-2 py-1 rounded">White-Label Branding</span>
+<span class="font-label-mono-tag text-[10px] bg-surface-dark-elevated text-on-surface px-2 py-1 rounded">Recurring Billing</span>
+<span class="font-label-mono-tag text-[10px] bg-surface-dark-elevated text-on-surface px-2 py-1 rounded">Class Scheduling</span>
+</div>
+</div>
+<a class="inline-flex items-center gap-1.5 text-primary font-headline-sm text-label-lg font-semibold hover:text-cyan-glow transition-colors pt-space-xs" href="#fitness-crm">
+<span>Explore Platform</span>
+<span class="material-symbols-outlined text-[16px]">north_east</span>
+</a>
+</div>
+<!-- Card 3: Crowdr Sports CRM -->
+<div class="product-item bg-surface-container rounded-xl p-space-lg flex flex-col justify-between gap-space-md shadow-md hover:shadow-xl transition-all duration-300" data-category="sports">
+<div class="flex flex-col gap-space-sm">
+<div class="flex justify-between items-start">
+<span class="font-label-mono-tag text-label-mono-tag bg-tertiary/10 text-tertiary px-2.5 py-1 rounded uppercase font-semibold">
+                Athletic Clubs &amp; Arenas
+              </span>
+<span class="material-symbols-outlined text-tertiary text-[24px]">stadium</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-on-surface font-semibold mt-2">Crowdr Sports CRM</h3>
+<p class="font-body-sm text-body-sm text-text-muted leading-relaxed">
+              Matchday reserved digital ticketing, stadium supporter relationship tracking, club merchandise sales, and automated marketing campaigns.
+            </p>
+<div class="flex flex-wrap gap-1.5 pt-2">
+<span class="font-label-mono-tag text-[10px] bg-surface-dark-elevated text-on-surface px-2 py-1 rounded">Matchday Ticketing</span>
+<span class="font-label-mono-tag text-[10px] bg-surface-dark-elevated text-on-surface px-2 py-1 rounded">Supporter CRM</span>
+<span class="font-label-mono-tag text-[10px] bg-surface-dark-elevated text-on-surface px-2 py-1 rounded">Retail Commerce</span>
+</div>
+</div>
+<a class="inline-flex items-center gap-1.5 text-primary font-headline-sm text-label-lg font-semibold hover:text-cyan-glow transition-colors pt-space-xs" href="#sports-crm">
+<span>Explore Platform</span>
+<span class="material-symbols-outlined text-[16px]">north_east</span>
+</a>
+</div>
+<!-- Card 4: GrowthFactor CRM -->
+<div class="product-item bg-surface-container rounded-xl p-space-lg flex flex-col justify-between gap-space-md shadow-md hover:shadow-xl transition-all duration-300" data-category="crm">
+<div class="flex flex-col gap-space-sm">
+<div class="flex justify-between items-start">
+<span class="font-label-mono-tag text-label-mono-tag bg-primary/10 text-primary px-2.5 py-1 rounded uppercase font-semibold">
+                Commercial Sales
+              </span>
+<span class="material-symbols-outlined text-primary text-[24px]">trending_up</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-on-surface font-semibold mt-2">GrowthFactor CRM</h3>
+<p class="font-body-sm text-body-sm text-text-muted leading-relaxed">
+              Automated inbound lead ingestion, dynamic deal stage tracking, multi-touch analytics attribution, and executive commercial forecasting.
+            </p>
+<div class="flex flex-wrap gap-1.5 pt-2">
+<span class="font-label-mono-tag text-[10px] bg-surface-dark-elevated text-on-surface px-2 py-1 rounded">Lead Ingestion</span>
+<span class="font-label-mono-tag text-[10px] bg-surface-dark-elevated text-on-surface px-2 py-1 rounded">Pipeline Stages</span>
+<span class="font-label-mono-tag text-[10px] bg-surface-dark-elevated text-on-surface px-2 py-1 rounded">Revenue Analytics</span>
+</div>
+</div>
+<a class="inline-flex items-center gap-1.5 text-primary font-headline-sm text-label-lg font-semibold hover:text-cyan-glow transition-colors pt-space-xs" href="#growthfactor">
+<span>Explore Platform</span>
+<span class="material-symbols-outlined text-[16px]">north_east</span>
+</a>
+</div>
+<!-- Card 5: Crowdr — Event CRM -->
+<div class="product-item bg-surface-container rounded-xl p-space-lg flex flex-col justify-between gap-space-md shadow-md hover:shadow-xl transition-all duration-300" data-category="sports">
+<div class="flex flex-col gap-space-sm">
+<div class="flex justify-between items-start">
+<span class="font-label-mono-tag text-label-mono-tag bg-tertiary-container/10 text-tertiary-container px-2.5 py-1 rounded uppercase font-semibold">
+                Events &amp; Festivals
+              </span>
+<span class="material-symbols-outlined text-tertiary-container text-[24px]">confirmation_number</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-on-surface font-semibold mt-2">Crowdr — Event CRM</h3>
+<p class="font-body-sm text-body-sm text-text-muted leading-relaxed">
+              High-throughput checkout engine, tiered admission passes, real-time gate scanner verification, and promoter revenue settlement audits.
+            </p>
+<div class="flex flex-wrap gap-1.5 pt-2">
+<span class="font-label-mono-tag text-[10px] bg-surface-dark-elevated text-on-surface px-2 py-1 rounded">High-Throughput</span>
+<span class="font-label-mono-tag text-[10px] bg-surface-dark-elevated text-on-surface px-2 py-1 rounded">Mobile QR Scanner</span>
+<span class="font-label-mono-tag text-[10px] bg-surface-dark-elevated text-on-surface px-2 py-1 rounded">Promoter Ledger</span>
+</div>
+</div>
+<a class="inline-flex items-center gap-1.5 text-primary font-headline-sm text-label-lg font-semibold hover:text-cyan-glow transition-colors pt-space-xs" href="#event-ticketing">
+<span>Explore Platform</span>
+<span class="material-symbols-outlined text-[16px]">north_east</span>
+</a>
+</div>
+</div>
+</div>
+</section>
+<!-- ========================================================================= -->
+<!-- 9. CROSS-PRODUCT ARCHITECTURAL PRINCIPLES (Dark Section) -->
+<!-- ========================================================================= -->
+<section class="w-full bg-surface-container-lowest text-on-surface py-margin-desktop px-gutter lg:px-gutter-desktop">
+<div class="max-w-[1360px] mx-auto flex flex-col gap-space-xl">
+<div class="flex flex-col gap-space-xs max-w-2xl">
+<span class="font-label-mono-tag text-label-mono-tag text-primary tracking-widest uppercase">
+          ENGINEERING ARCHITECTURE
+        </span>
+<h2 class="font-headline-xl text-headline-xl text-on-surface font-semibold tracking-tight">
+          Designed Around the Way Businesses Work.
+        </h2>
+<p class="font-body-md text-body-md text-text-muted">
+          Every platform built by ZNSoftech is anchored by four foundational engineering standards that ensure continuous availability, uncompromised security, and rapid user adoption.
+        </p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-gutter">
+<div class="bg-surface-container p-space-lg rounded-xl flex flex-col gap-space-sm">
+<div class="w-10 h-10 rounded bg-primary/10 flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-[22px]">smart_toy</span>
+</div>
+<h4 class="font-headline-md text-headline-md text-on-surface font-semibold">Workflow Automation</h4>
+<p class="font-body-sm text-body-sm text-text-muted leading-relaxed">
+            Eliminating repetitive manual data entry through event-driven triggers, automated customer notifications, and status transitions.
+          </p>
+</div>
+<div class="bg-surface-container p-space-lg rounded-xl flex flex-col gap-space-sm">
+<div class="w-10 h-10 rounded bg-primary/10 flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-[22px]">lock</span>
+</div>
+<h4 class="font-headline-md text-headline-md text-on-surface font-semibold">Deterministic Security</h4>
+<p class="font-body-sm text-body-sm text-text-muted leading-relaxed">
+            Granular role-based access control (RBAC), end-to-end telemetry encryption, and verified adherence to SOC2 and GDPR governance standards.
+          </p>
+</div>
+<div class="bg-surface-container p-space-lg rounded-xl flex flex-col gap-space-sm">
+<div class="w-10 h-10 rounded bg-primary/10 flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-[22px]">query_stats</span>
+</div>
+<h4 class="font-headline-md text-headline-md text-on-surface font-semibold">Real-Time Telemetry</h4>
+<p class="font-body-sm text-body-sm text-text-muted leading-relaxed">
+            Instant operational visibility through live map streaming, gate throughput telemetry, and exportable executive audit ledgers.
+          </p>
+</div>
+<div class="bg-surface-container p-space-lg rounded-xl flex flex-col gap-space-sm">
+<div class="w-10 h-10 rounded bg-primary/10 flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-[22px]">hub</span>
+</div>
+<h4 class="font-headline-md text-headline-md text-on-surface font-semibold">Scalable Multi-Tenant</h4>
+<p class="font-body-sm text-body-sm text-text-muted leading-relaxed">
+            Containerized edge deployments with isolated data partitions engineered to support tens of thousands of concurrent operations.
+          </p>
+</div>
+</div>
+</div>
+</section>
+<!-- ========================================================================= -->
+<!-- 10. REUSABLE PRODUCT DETAIL PREVIEW: SMART COLLECT DEEP DIVE ARCHITECTURE -->
+<!-- ========================================================================= -->
+<section class="w-full bg-surface-container py-margin-desktop px-gutter lg:px-gutter-desktop">
+<div class="max-w-[1360px] mx-auto flex flex-col gap-space-xl">
+<div class="flex flex-col gap-space-xs text-center items-center max-w-2xl mx-auto">
+<span class="font-label-mono-tag text-label-mono-tag text-primary tracking-widest uppercase">
+          OPERATIONAL PROCESS BLUEPRINT
+        </span>
+<h2 class="font-headline-xl text-headline-xl text-on-surface font-semibold tracking-tight">
+          Inside the Platform: Smart Collect Architecture
+        </h2>
+<p class="font-body-md text-body-md text-text-muted">
+          A granular look at how Smart Collect unites field personnel, compliance officers, and finance teams in an unbroken digital chain of custody.
+        </p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-gutter-desktop">
+<!-- Step 1 -->
+<div class="bg-surface-dark-elevated p-space-lg rounded-xl flex flex-col gap-space-sm relative">
+<span class="font-headline-xl text-headline-xl text-primary/30 font-bold">01</span>
+<h4 class="font-headline-md text-headline-md text-on-surface font-semibold">Driver Onboarding &amp; Vehicle Checks</h4>
+<p class="font-body-md text-body-md text-text-muted leading-relaxed">
+            Drivers log in via smartphone, complete statutory digital pre-trip defect reports with photographic capture, and log starting odometer readings before ignition clearance.
+          </p>
+<div class="mt-space-md pt-space-xs bg-surface-container/60 p-space-sm rounded">
+<span class="font-label-mono-tag text-[10px] text-primary uppercase block">REGULATORY STANDARD</span>
+<span class="font-body-sm text-body-sm text-on-surface">DVSA &amp; Statutory UK Fleet Compliance</span>
+</div>
+</div>
+<!-- Step 2 -->
+<div class="bg-surface-dark-elevated p-space-lg rounded-xl flex flex-col gap-space-sm relative">
+<span class="font-headline-xl text-headline-xl text-primary/30 font-bold">02</span>
+<h4 class="font-headline-md text-headline-md text-on-surface font-semibold">Route Optimization &amp; GPS Dispatch</h4>
+<p class="font-body-md text-body-md text-text-muted leading-relaxed">
+            Central dispatch sequences daily collection manifests using intelligent proximity sorting, broadcasting live turn-by-turn navigation directly into the vehicle cabin.
+          </p>
+<div class="mt-space-md pt-space-xs bg-surface-container/60 p-space-sm rounded">
+<span class="font-label-mono-tag text-[10px] text-primary uppercase block">DISPATCH TELEMETRY</span>
+<span class="font-body-sm text-body-sm text-on-surface">Integrated Google Maps Engine &amp; Geo-Fencing</span>
+</div>
+</div>
+<!-- Step 3 -->
+<div class="bg-surface-dark-elevated p-space-lg rounded-xl flex flex-col gap-space-sm relative">
+<span class="font-headline-xl text-headline-xl text-primary/30 font-bold">03</span>
+<h4 class="font-headline-md text-headline-md text-on-surface font-semibold">Automated Invoicing &amp; Compliance Sign-Off</h4>
+<p class="font-body-md text-body-md text-text-muted leading-relaxed">
+            Upon collection completion, customers provide a digital sign-off. The platform generates an encrypted Waste Transfer Note and triggers automated billing to accounting.
+          </p>
+<div class="mt-space-md pt-space-xs bg-surface-container/60 p-space-sm rounded">
+<span class="font-label-mono-tag text-[10px] text-primary uppercase block">FINANCIAL RECONCILIATION</span>
+<span class="font-body-sm text-body-sm text-on-surface">Instant PDF Invoicing &amp; Accounting Webhooks</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- ========================================================================= -->
+<!-- 11. PRODUCT ACCORDION FAQ -->
+<!-- ========================================================================= -->
+<section class="w-full bg-canvas-light text-text-light-primary py-margin-desktop px-gutter lg:px-gutter-desktop">
+<div class="max-w-[1000px] mx-auto flex flex-col gap-space-xl">
+<div class="flex flex-col gap-space-xs text-center items-center">
+<span class="font-label-mono-tag text-label-mono-tag text-inverse-primary tracking-widest uppercase font-bold">
+          FREQUENTLY ASKED QUESTIONS
+        </span>
+<h2 class="font-headline-xl text-headline-xl text-text-light-primary font-semibold tracking-tight">
+          Platform Architecture &amp; Deployment Inquiries
+        </h2>
+</div>
+<div class="flex flex-col gap-space-sm" id="product-faq-container">
+<!-- Accordion Item 1 -->
+<div class="faq-item bg-surface-light rounded-xl overflow-hidden shadow-sm">
+<button class="faq-toggle w-full p-space-lg flex items-center justify-between text-left transition-colors hover:bg-canvas-light/50">
+<span class="font-headline-sm text-headline-sm font-semibold text-text-light-primary pr-4">
+              Which ZNSoftech product is engineered for field operations and mobile workforce management?
+            </span>
+<span class="material-symbols-outlined faq-icon text-inverse-primary transition-transform duration-200">expand_more</span>
+</button>
+<div class="faq-content hidden px-space-lg pb-space-lg pt-0 text-text-muted font-body-md text-body-md leading-relaxed">
+            Smart Collect is our dedicated platform for workforce logistics and waste collection. It features dynamic job allocation, driver vehicle inspection checklists with defect tracking, mileage telemetry, zone mapping, statutory compliance certification, digital signatures, and automated invoicing.
+          </div>
+</div>
+<!-- Accordion Item 2 -->
+<div class="faq-item bg-surface-light rounded-xl overflow-hidden shadow-sm">
+<button class="faq-toggle w-full p-space-lg flex items-center justify-between text-left transition-colors hover:bg-canvas-light/50">
+<span class="font-headline-sm text-headline-sm font-semibold text-text-light-primary pr-4">
+              Which platforms support CRM and customer relationship workflows?
+            </span>
+<span class="material-symbols-outlined faq-icon text-inverse-primary transition-transform duration-200">expand_more</span>
+</button>
+<div class="faq-content hidden px-space-lg pb-space-lg pt-0 text-text-muted font-body-md text-body-md leading-relaxed">
+            We provide three domain-specific CRM platforms: <strong>GrowthFactor CRM</strong> (for enterprise lead tracking, pipeline velocity, and commercial deals), <strong>Firebird Fitness CRM</strong> (for studio membership billing, workout regimens, and attendance), and <strong>Crowdr Sports CRM</strong> (for athletic supporter relationships, ticketing, and merchandising).
+          </div>
+</div>
+<!-- Accordion Item 3 -->
+<div class="faq-item bg-surface-light rounded-xl overflow-hidden shadow-sm">
+<button class="faq-toggle w-full p-space-lg flex items-center justify-between text-left transition-colors hover:bg-canvas-light/50">
+<span class="font-headline-sm text-headline-sm font-semibold text-text-light-primary pr-4">
+              Does ZNSoftech offer specialized event ticketing and sports management software?
+            </span>
+<span class="material-symbols-outlined faq-icon text-inverse-primary transition-transform duration-200">expand_more</span>
+</button>
+<div class="faq-content hidden px-space-lg pb-space-lg pt-0 text-text-muted font-body-md text-body-md leading-relaxed">
+            Yes. Our Crowdr suite includes <strong>Crowdr Sports CRM</strong> (built for athletic clubs, stadium reserved seating, and fan marketing) and <strong>Crowdr Event CRM</strong> (built for music festivals, arena promoters, dynamic gate check-ins, and high-throughput ticket checkouts).
+          </div>
+</div>
+<!-- Accordion Item 4 -->
+<div class="faq-item bg-surface-light rounded-xl overflow-hidden shadow-sm">
+<button class="faq-toggle w-full p-space-lg flex items-center justify-between text-left transition-colors hover:bg-canvas-light/50">
+<span class="font-headline-sm text-headline-sm font-semibold text-text-light-primary pr-4">
+              How can enterprise businesses inquire about deploying or tailoring a ZNSoftech product?
+            </span>
+<span class="material-symbols-outlined faq-icon text-inverse-primary transition-transform duration-200">expand_more</span>
+</button>
+<div class="faq-content hidden px-space-lg pb-space-lg pt-0 text-text-muted font-body-md text-body-md leading-relaxed">
+            Organizations can connect directly with our engineering architecture leads via our global dispatch line (+91 9717 786 450) or email (info@znsoftech.com). We conduct technical scoping sessions to discuss white-label deployment, multi-tenant cloud hosting, or custom feature expansion tailored to your operations.
+          </div>
+</div>
+</div>
+</div>
+</section>
+<!-- ========================================================================= -->
+<!-- 12. DRAMATIC CLOSING CTA -->
+<!-- ========================================================================= -->
+<section class="w-full bg-surface-container-lowest text-on-surface py-margin-desktop px-gutter lg:px-gutter-desktop relative overflow-hidden">
+<!-- Photonic Backlight Flare -->
+<div class="absolute inset-0 bg-gradient-to-t from-primary-container/10 via-transparent to-transparent pointer-events-none"></div>
+<div class="max-w-[1000px] mx-auto flex flex-col items-center text-center gap-space-lg relative z-10">
+<span class="font-label-mono-tag text-label-mono-tag text-primary tracking-widest uppercase">
+        NEXT STEP // ENGAGE ARCHITECTURE TEAM
+      </span>
+<h2 class="font-headline-xl text-headline-xl lg:text-display-hero text-on-surface font-semibold tracking-tight">
+        Find the Technology That Fits Your Business.
+      </h2>
+<p class="font-body-lg text-body-lg text-text-muted max-w-2xl leading-relaxed">
+        Explore how ZNSoftech's purpose-built digital products can streamline your operations, protect compliance, and drive measurable revenue growth across your organization.
+      </p>
+<!-- Action Buttons -->
+<div class="flex flex-wrap items-center justify-center gap-space-md pt-space-xs">
+<a class="inline-flex items-center justify-center h-12 px-8 bg-primary-container text-on-primary-container font-headline-sm text-label-lg font-medium rounded-lg hover:bg-primary hover:text-on-primary transition-all duration-200 shadow-xl shadow-primary-container/20" data-path="contact" href="#">
+          Discuss Your Requirements
+        </a>
+<a class="inline-flex items-center justify-center h-12 px-8 bg-surface-container-high text-on-surface font-headline-sm text-label-lg font-medium rounded-lg hover:bg-surface-bright transition-colors duration-200" data-path="services" href="#">
+          Explore Our Services
+        </a>
+</div>
+<!-- Direct Engineering Dispatch Coordinates -->
+<div class="pt-space-md flex flex-wrap items-center justify-center gap-space-xl text-text-muted font-body-sm text-body-sm">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-primary text-[18px]">call</span>
+<span>Direct Line:</span>
+<a class="text-on-surface font-semibold hover:text-primary transition-colors" href="tel:+919717786450">+91 9717 786 450</a>
+</div>
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-primary text-[18px]">mail</span>
+<span>Architecture Inquiry:</span>
+<a class="text-on-surface font-semibold hover:text-primary transition-colors" href="mailto:info@znsoftech.com">info@znsoftech.com</a>
+</div>
+</div>
+</div>
+</section>
+</div>
+<script>
+  // Product Filter Micro-Interaction
+  document.addEventListener('DOMContentLoaded', () => {
+    const filterButtons = document.querySelectorAll('.filter-pill');
+    const productItems = document.querySelectorAll('.product-item');
+
+    filterButtons.forEach(btn => {
+      btn.addEventListener('click', () => {
+        const filter = btn.getAttribute('data-filter');
+
+        // Toggle Active Button Styles
+        filterButtons.forEach(b => {
+          b.classList.remove('bg-primary-container', 'text-on-primary-container', 'font-semibold');
+          b.classList.add('bg-surface-container', 'text-on-surface-variant', 'font-medium');
+        });
+        btn.classList.add('bg-primary-container', 'text-on-primary-container', 'font-semibold');
+        btn.classList.remove('bg-surface-container', 'text-on-surface-variant', 'font-medium');
+
+        // Filter Products
+        productItems.forEach(item => {
+          const category = item.getAttribute('data-category');
+          if (filter === 'all' || category === filter) {
+            item.style.display = 'flex';
+          } else {
+            item.style.display = 'none';
+          }
+        });
+      });
+    });
+
+    // FAQ Accordion Toggle Interaction
+    const faqToggles = document.querySelectorAll('.faq-toggle');
+    faqToggles.forEach(toggle => {
+      toggle.addEventListener('click', () => {
+        const content = toggle.nextElementSibling;
+        const icon = toggle.querySelector('.faq-icon');
+        const isOpen = !content.classList.contains('hidden');
+
+        // Close all items
+        document.querySelectorAll('.faq-content').forEach(c => c.classList.add('hidden'));
+        document.querySelectorAll('.faq-icon').forEach(i => i.style.transform = 'rotate(0deg)');
+
+        if (!isOpen) {
+          content.classList.remove('hidden');
+          icon.style.transform = 'rotate(180deg)';
+        }
+      });
+    });
+  });
+</script></main><footer class="w-full bg-surface-container-lowest text-on-surface-variant"><div class="max-w-[1360px] mx-auto px-gutter-desktop pt-margin-desktop pb-space-xl"><div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-gutter-desktop pb-margin-tablet"><div class="lg:col-span-4 flex flex-col gap-space-md"><div class="flex items-center gap-space-sm"><img alt="Image from https://znsoftech.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flogo-nav.ddd322ab.png&amp;w=3840&amp;q=75" class="h-7 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1WLQFGfX5rdY6n-nKL1Xo_q7Shj6Vke_3_cX5mgKzbiYiPw712-xUmWn_d1ZvPfIKIWxXQe7ffPoa2YOorg1PLBRs_sanWDgV-LpBCWnYvvus-3cx_zqaWj66MjgM1EM6cRAE48lzctj0AKVPtJMReIAkHc93xSS4ZracdmMxQiAYpow4103pZ6W8PvVQRJTgZC0QjHVBjlzcDkjwkIOUqTedLNQXSpjju89vBtQkJn66GexRubjWUWfr3t"/><span class="font-headline-md text-headline-md text-on-surface">ZNSoftech</span></div><p class="font-body-md text-body-md text-text-muted max-w-sm">Engineering algorithmic enterprise systems, cloud transformation frameworks, and production-grade Agentic AI pipelines for global innovators.</p><div class="flex flex-col gap-space-xs mt-space-sm"><span class="font-label-mono-tag text-label-mono-tag text-primary uppercase">Global Dispatch Lines</span><a class="font-body-md text-body-md text-on-surface hover:text-primary transition-colors" href="tel:+919717786450">+91 9717 786 450</a><a class="font-body-md text-body-md text-on-surface hover:text-primary transition-colors" href="mailto:info@znsoftech.com">info@znsoftech.com</a></div></div><div class="lg:col-span-5 grid grid-cols-1 sm:grid-cols-3 gap-space-md"><div class="flex flex-col gap-space-xs"><span class="font-label-mono-tag text-label-mono-tag text-primary uppercase">UK Operations</span><h4 class="font-label-lg text-label-lg text-on-surface font-semibold">Daresbury</h4><p class="font-body-sm text-body-sm text-text-muted leading-relaxed">Sci-Tech Daresbury, Keckwick Lane, Cheshire, WA4 4FS, United Kingdom</p></div><div class="flex flex-col gap-space-xs"><span class="font-label-mono-tag text-label-mono-tag text-primary uppercase">North America</span><h4 class="font-label-lg text-label-lg text-on-surface font-semibold">Irving, Texas</h4><p class="font-body-sm text-body-sm text-text-muted leading-relaxed">MacArthur Blvd, Tech Hub Corridor, Irving, TX 75038, United States</p></div><div class="flex flex-col gap-space-xs"><span class="font-label-mono-tag text-label-mono-tag text-primary uppercase">Global HQ</span><h4 class="font-label-lg text-label-lg text-on-surface font-semibold">New Delhi</h4><p class="font-body-sm text-body-sm text-text-muted leading-relaxed">Capital Cyber Park, Connaught Place District, New Delhi 110001, India</p></div></div><div class="lg:col-span-3 flex flex-col gap-space-sm"><span class="font-label-mono-tag text-label-mono-tag text-primary uppercase">Engineering Intel</span><p class="font-body-sm text-body-sm text-text-muted">Subscribe to architectural teardowns, agentic deployment notes, and enterprise tech releases.</p><form class="flex flex-col gap-space-xs" onsubmit="return false;"><div class="flex items-center bg-surface-container rounded-lg px-space-sm py-1"><input class="w-full bg-transparent text-on-surface placeholder:text-text-muted font-body-sm text-body-sm focus:outline-none px-space-xs py-space-xs" placeholder="developer@enterprise.com" type="email"/><button class="px-space-md py-1.5 bg-primary-container text-on-primary-container font-label-md text-label-md rounded-lg hover:bg-primary hover:text-on-primary transition-colors flex items-center justify-center" type="button"><span class="material-symbols-outlined text-[16px]">arrow_forward</span></button></div><span class="font-label-mono-tag text-label-mono-tag text-text-muted">Encrypted &amp; privacy verified. No marketing bloat.</span></form></div></div><div class="pt-space-lg flex flex-col sm:flex-row items-center justify-between gap-space-md font-body-sm text-body-sm text-text-muted"><div class="flex items-center gap-space-md"><span class="inline-block w-2 h-2 rounded-full bg-primary-container animate-pulse"></span><span>© 2025 ZNSoftech Ltd. All global rights reserved.</span></div><div class="flex items-center gap-space-lg font-label-md text-label-md"><a class="hover:text-on-surface transition-colors" data-path="privacy-policy" href="#">Privacy Framework</a><a class="hover:text-on-surface transition-colors" data-path="terms-of-service" href="#">Terms of Engagement</a><a class="hover:text-on-surface transition-colors" data-path="security" href="#">SOC2 / ISO 27001</a></div></div></div></footer></body></html>
